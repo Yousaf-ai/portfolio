@@ -1,0 +1,412 @@
+[2026-03-25 10:00:46] User: hey
+[2026-03-25 10:00:46] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-25 10:00:50] User: what is abs
+[2026-03-25 10:00:50] Bot : ABS (Anti-lock Braking System) prevents wheels from locking during hard braking, helping you maintain steering control and stop safely.
+----------------------------------------
+[2026-03-25 10:00:55] User: what is mot
+[2026-03-25 10:00:55] Bot : The MOT is an annual inspection required for vehicles over 3 years old in the UK. It checks road safety and emissions standards including brakes, lights, tyres, and exhaust.
+----------------------------------------
+[2026-03-25 10:01:03] User: what is a gearbox
+[2026-03-25 10:01:03] Bot : A transmission (also called a gearbox) is a mechanical device invented by Louis Renault (who founded Renault) which uses a gear set—two or more gears working together—to change the speed, direction of rotation, or torque multiplication or reduction, in a machine. 
+A transmission can have a single, or fixed, gear ratio or it can have variable ratios; a variable-ratio transmission can have multiple discrete gear ratios or be continuously variable. Variable-ratio transmissions are used in many kinds of machinery, especially vehicles.
+----------------------------------------
+[2026-03-25 10:01:27] User: what is regenerative braking
+[2026-03-25 10:01:27] Bot : Regenerative braking recovers kinetic energy during braking and converts it into electrical energy stored in the battery, extending the range of electric and hybrid vehicles.
+----------------------------------------
+[2026-03-25 10:01:43] User: wha is regenerative bracking
+[2026-03-25 10:01:43] Bot : Regenerative braking is a system that converts kinetic energy during braking into electrical energy which is stored in the battery. This is commonly used in electric and hybrid vehicles.
+----------------------------------------
+[2026-03-25 10:02:58] User: tell me what is tesla
+[2026-03-25 10:02:58] Bot : Transmission refers to the gearbox. It transmits power from the engine to the wheels.
+----------------------------------------
+[2026-03-25 10:03:05] User: what is a tesla
+[2026-03-25 10:03:05] Bot : Sorry, I do not know that. Please be more specific!
+----------------------------------------
+[2026-03-25 10:03:13] User: tell me about tesla
+[2026-03-25 10:03:13] Bot : Tesla is an American electric vehicle manufacturer founded by Elon Musk. Their models include the Model S, Model 3, Model X, and Model Y. Tesla pioneered long-range EVs and advanced autopilot technology.
+----------------------------------------
+[2026-03-25 10:12:05] User: cd
+[2026-03-25 10:12:05] Bot : According to Wikipedia: That topic is ambiguous. Did you mean one of these: Canada, Toronto Stock Exchange, California, Air China, CA Technologies?
+----------------------------------------
+[2026-03-25 10:12:09] User: exit
+[2026-03-25 10:12:09] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-25 17:20:36] User: hello
+[2026-03-25 17:20:36] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-25 17:22:05] User: exit
+[2026-03-25 17:22:05] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-25 17:32:21] User: check that tesla is electric
+[2026-03-25 17:32:21] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-25 17:34:40] User: exit
+[2026-03-25 17:34:40] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-25 17:34:49] User: check that tesla is electric
+[2026-03-25 17:34:49] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-25 17:37:31] User: exit
+[2026-03-25 17:37:31] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-25 17:37:45] User: check that tesla is electric
+[2026-03-25 17:37:45] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-25 17:38:21] User: i know that 
+[2026-03-25 17:38:21] Bot : "I know that I know nothing" is a saying derived from Plato's account of the Greek philosopher Socrates: "For I was conscious that I knew practically nothing..." (Plato, Apology 22d, translated by Harold North Fowler, 1966). It is also sometimes called the Socratic paradox, although this name is often instead used to refer to other seemingly paradoxical claims made by Socrates in Plato's dialogues (most notably, Socratic intellectualism and the Socratic fallacy).
+This saying is also connected or conflated with the answer to a question Socrates (according to Xenophon) or Chaerephon (according to Plato) is said to have posed to the Pythia, the Oracle of Delphi, in which the oracle stated something to the effect of "Socrates is the wisest person in Athens." Socrates, believing the oracle but also completely convinced that he knew nothing, was said to have concluded that nobody knew anything, and that he was only wiser than others because he was the only person who recognized his own ignorance.
+----------------------------------------
+[2026-03-25 17:39:21] User: check that ford is petrol
+[2026-03-25 17:39:21] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-25 17:39:32] User: check that tesla is petrol
+[2026-03-25 17:39:32] Bot : Incorrect. That is false.
+----------------------------------------
+[2026-03-25 17:39:47] User: check that bugatti si expensive
+[2026-03-25 17:39:47] Bot : Sorry, I don't know the answer to that yet.
+----------------------------------------
+[2026-03-25 17:40:00] User: check that bugatti is expensive
+[2026-03-25 17:40:00] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-25 17:40:19] User: Check that Ferrari is Italian
+[2026-03-25 17:40:19] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-25 17:40:25] User: I know that Ferrari is Italian
+[2026-03-25 17:40:25] Bot : OK, I will remember that Ferrari is Italian.
+----------------------------------------
+[2026-03-25 17:40:31] User: Check that Ferrari is Italian
+[2026-03-25 17:40:31] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-25 17:40:44] User: What is the difference between petrol and diesel?
+[2026-03-25 17:40:44] Bot : Petrol engines use spark plugs to ignite fuel while diesel engines use compression. Diesel engines are more fuel-efficient but petrol engines are typically smoother and quieter.
+----------------------------------------
+[2026-03-25 17:40:49] User: What are the advantages of electric cars?
+[2026-03-25 17:40:49] Bot : Electric cars have lower running costs, zero tailpipe emissions, quieter operation, instant torque for quick acceleration, and fewer moving parts which means less maintenance.
+----------------------------------------
+[2026-03-25 17:40:59] User: How can I improve fuel efficiency?
+[2026-03-25 17:40:59] Bot : You can improve fuel efficiency by maintaining correct tyre pressure driving smoothly avoiding excessive idling removing unnecessary weight keeping up with regular servicing and using cruise control on motorways.
+----------------------------------------
+[2026-03-25 17:41:08] User: what is a turbo
+[2026-03-25 17:41:08] Bot : A turbocharger uses exhaust gases to spin a turbine that forces more air into the engine, creating more power without increasing engine size. This improves both performance and efficiency.
+----------------------------------------
+[2026-03-25 17:41:19] User: Check that Telsa is Eletric
+[2026-03-25 17:41:19] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-25 17:41:31] User: What is a vehical?
+[2026-03-25 17:41:31] Bot : A vehicle (from Latin  vehiculum) is a machine designed for self-propulsion, usually to transport people, cargo, or both. The term "vehicle" typically refers to ground transport vehicles such as human-powered land vehicles (e.g. bicycles, tricycles, velomobiles), animal-powered transports (e.g.
+----------------------------------------
+[2026-03-25 17:41:37] User: How does a hybird work?
+[2026-03-25 17:41:37] Bot : Hybrid cars save fuel by using the electric motor at low speeds and switching to the petrol engine at higher speeds. They also use regenerative braking to recharge the battery.
+----------------------------------------
+[2026-03-25 17:41:47] User: What is a Giraffe?
+[2026-03-25 17:41:47] Bot : Giraffes (genus Giraffa) are large African hoofed mammals. They are the tallest living terrestrial animals and the largest ruminants on Earth. They are classified under the family Giraffidae, along with their closest extant relative, the okapi.
+----------------------------------------
+[2026-03-25 17:42:05] User: Who is Osama Binladin
+[2026-03-25 17:42:05] Bot : Osama bin Laden (10 March 1957 – 2 May 2011) was the founder and first general emir of the al-Qaeda militant organization. A pan-Islamist and Islamic extremist, bin Laden organized and funded numerous jihadist or anti-Western militants and terrorist attacks worldwide. Al-Qaeda's September 11, 2001 attacks (9/11) against the United States directly killed 2,977 victims.
+----------------------------------------
+[2026-03-25 17:42:14] User: Tell me about Python programming
+[2026-03-25 17:42:14] Bot : Monty Python, also known as the Pythons, were a British comedy troupe formed in 1969 consisting of Graham Chapman, John Cleese, Terry Gilliam, Eric Idle, Terry Jones and Michael Palin. The group initially came to prominence in the UK for the sketch comedy television series Monty Python's Flying Circus, which aired on the BBC from 1969 to 1974. Their work then developed into a larger collection that included live shows, films, albums, books, and musicals; their influence on comedy has been compared to the Beatles' influence on music.
+----------------------------------------
+[2026-03-25 17:42:26] User: hello
+[2026-03-25 17:42:26] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-25 17:42:29] User: what is your name
+[2026-03-25 17:42:29] Bot : I am VehicleBot, your friendly automotive assistant built for the ISYS30221 coursework!
+----------------------------------------
+[2026-03-25 17:42:34] User: help
+[2026-03-25 17:42:34] Bot : Here are some things you can ask me about: electric cars, hybrid cars, SUVs, sedans, hatchbacks, Tesla, ABS, cruise control, turbocharging, torque, horsepower, fuel efficiency, autonomous driving, car servicing, MOT tests, road tax, tyres, and much more!
+----------------------------------------
+[2026-03-25 17:42:38] User: bye
+[2026-03-25 17:42:38] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-26 09:55:09] User: exit
+[2026-03-26 09:55:09] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-26 10:11:48] User: hello
+[2026-03-26 10:11:48] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-26 10:17:20] User: exit
+[2026-03-26 10:17:20] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-26 10:20:45] User: exit
+[2026-03-26 10:20:45] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-26 10:21:15] User: exit
+[2026-03-26 10:21:15] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-26 10:30:34] User: hello
+[2026-03-26 10:30:34] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-26 10:30:44] User: check that tesla is electric
+[2026-03-26 10:30:44] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 10:30:51] User: who is donald trump
+[2026-03-26 10:30:51] Bot : Donald John Trump (born June 14, 1946) is an American politician, media personality, and businessman who is the 47th president of the United States. A member of the Republican Party, he served as the 45th president from 2017 to 2021.
+Born into a wealthy New York City family, Trump graduated from the University of Pennsylvania in 1968 with a bachelor's degree in economics.
+----------------------------------------
+[2026-03-26 10:31:27] User: what is in this image
+[2026-03-26 10:31:27] Bot : I am 98.1% sure that is a car.
+----------------------------------------
+[2026-03-26 10:31:54] User: classify this image
+[2026-03-26 10:31:54] Bot : I am 99.4% sure that is a truck.
+----------------------------------------
+[2026-03-26 10:32:39] User: what is in this image
+[2026-03-26 10:32:39] Bot : I am 99.7% sure that is a motorcycle.
+----------------------------------------
+[2026-03-26 19:24:15] User: hello
+[2026-03-26 19:24:15] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-26 19:24:22] User: what is your name
+[2026-03-26 19:24:22] Bot : I am VehicleBot, your friendly automotive assistant built for the ISYS30221 coursework!
+----------------------------------------
+[2026-03-26 19:24:29] User: what can you do
+[2026-03-26 19:24:29] Bot : I can answer questions about vehicles, electric cars, car types, engines, safety features, and more. I also have a knowledge base and can search Wikipedia. Try asking me something!
+----------------------------------------
+[2026-03-26 19:24:37] User: what is a vehicle
+[2026-03-26 19:24:37] Bot : A vehicle (from Latin  vehiculum) is a machine designed for self-propulsion, usually to transport people, cargo, or both. The term "vehicle" typically refers to ground transport vehicles such as human-powered land vehicles (e.g. bicycles, tricycles, velomobiles), animal-powered transports (e.g.
+----------------------------------------
+[2026-03-26 19:24:44] User: which vehicle is fastest
+[2026-03-26 19:24:44] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:24:57] User: tell me about buses
+[2026-03-26 19:24:57] Bot : Tell Me Lies  is an American drama television series created by Meaghan Oppenheimer, based on the 2018 novel of the same name by Carola Lovering. The series was released on Hulu on September 7, 2022. It stars Grace Van Patten, Jackson White, Catherine Missal, Spencer House, Sonia Mena, Branden Cook, Benjamin Wadsworth, Alicia Crowder, and Tom Ellis.
+----------------------------------------
+[2026-03-26 19:25:07] User: what is a motorcycle
+[2026-03-26 19:25:07] Bot : A motorcycle (motorbike, bike, or, if three-wheeled, a trike) is a two or three-wheeled motor vehicle steered by a handlebar from a saddle-style seat.
+Motorcycle designs vary greatly to suit a range of different purposes: long-distance travel, commuting, cruising, sport (including racing), and off-road riding. Motorcycling is riding a motorcycle and being involved in other related social activities such as joining a motorcycle club and attending motorcycle rallies.
+----------------------------------------
+[2026-03-26 19:25:12] User: which vehicle is eco friendly
+[2026-03-26 19:25:12] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:25:22] User: Which vehicle uses the least fuel?
+[2026-03-26 19:25:22] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:25:29] User: What type of vehicle is best for city travel?
+[2026-03-26 19:25:29] Bot : Popular family cars include the Skoda Octavia Volkswagen Tiguan Ford Kuga and Kia Sportage. The best choice depends on your budget space requirements and whether you prefer petrol diesel or electric.
+----------------------------------------
+[2026-03-26 19:25:35] User: Which vehicle is safest for long journeys?
+[2026-03-26 19:25:35] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:25:43] User: What vehicle is good for carrying heavy goods?
+[2026-03-26 19:25:43] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:25:55] User: Which vehicle is cheap to maintain?
+[2026-03-26 19:25:55] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:26:22] User: Check that TeslaModel3 is Car
+[2026-03-26 19:26:22] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-26 19:26:29] User: Check that Tesla is Car
+[2026-03-26 19:26:29] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-26 19:26:38] User: Check that Sedan is Airplane
+[2026-03-26 19:26:38] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-26 19:26:48] User: I know that Roadster is Car
+[2026-03-26 19:26:48] Bot : OK, I will remember that Roadster is Car.
+----------------------------------------
+[2026-03-26 19:26:54] User: Check that Roadster is Car
+[2026-03-26 19:26:54] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 19:27:01] User: I know that Boeing747 is Bicycle
+[2026-03-26 19:27:01] Bot : OK, I will remember that Boeing747 is Bicycle.
+----------------------------------------
+[2026-03-26 19:27:09] User: I know that Sedan is Boat
+[2026-03-26 19:27:09] Bot : OK, I will remember that Sedan is Boat.
+----------------------------------------
+[2026-03-26 19:27:26] User: Check that Falcon is Boat
+[2026-03-26 19:27:26] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-26 19:27:40] User: What is in this image?
+[2026-03-26 19:27:40] Bot : I am 99.9% sure that is a motorcycle.
+----------------------------------------
+[2026-03-26 19:27:50] User: What is in this image?
+[2026-03-26 19:27:50] Bot : I am 57.6% sure that is a car.
+----------------------------------------
+[2026-03-26 19:28:52] User: What is in this image?
+[2026-03-26 19:28:52] Bot : I am 80.2% sure that is a car.
+----------------------------------------
+[2026-03-26 19:29:03] User: What is in this image?
+[2026-03-26 19:29:03] Bot : I am 87.9% sure that is a truck.
+----------------------------------------
+[2026-03-26 19:29:26] User: Can you classify this image?
+[2026-03-26 19:29:26] Bot : Sorry, I don't know the answer to that yet.
+----------------------------------------
+[2026-03-26 19:29:31] User: Identify this vehicle image
+[2026-03-26 19:29:31] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:29:39] User: Predict this image
+[2026-03-26 19:29:39] Bot : A prediction (from Latin  prae- 'before' and  dictum 'something said') or  forecast is a statement about a future event or about future data. Predictions are often, but not always, based upon experience or knowledge of forecasters. There is no universal agreement about the exact difference between "prediction" and "estimation"; different authors and disciplines ascribe different connotations.
+----------------------------------------
+[2026-03-26 19:29:44] User: Classify an image for me
+[2026-03-26 19:29:44] Bot : An estate car or wagon has an extended rear cargo area offering more luggage space than a sedan. Examples include the Volvo V60 and Skoda Superb Estate.
+----------------------------------------
+[2026-03-26 19:30:13] User: What vehicle is good for carrying heavy goods?
+[2026-03-26 19:30:13] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:30:20] User: Which vehicle is safest for long journeys?
+[2026-03-26 19:30:20] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 19:30:33] User: I know that Falcon is Car
+[2026-03-26 19:30:33] Bot : OK, I will remember that Falcon is Car.
+----------------------------------------
+[2026-03-26 19:30:38] User: I know that Falcon is Boat
+[2026-03-26 19:30:38] Bot : OK, I will remember that Falcon is Boat.
+----------------------------------------
+[2026-03-26 19:30:44] User: check that falcon is a car
+[2026-03-26 19:30:44] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-26 19:30:50] User: check that falcon is a boat
+[2026-03-26 19:30:50] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-26 19:31:36] User: exit
+[2026-03-26 19:31:36] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-26 19:40:01] User: check that bugatti is fast
+[2026-03-26 19:40:01] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 19:40:20] User: check that tesla is electric
+[2026-03-26 19:40:20] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 19:40:26] User: check that tesla is petrol
+[2026-03-26 19:40:26] Bot : Incorrect. That is false.
+----------------------------------------
+[2026-03-26 19:41:15] User: what is fuel economy
+[2026-03-26 19:41:15] Bot : Fuel economy measures how efficiently a vehicle uses fuel, often in miles per gallon or litres per 100 km.
+----------------------------------------
+[2026-03-26 19:41:23] User: What are run flat tyres?
+[2026-03-26 19:41:23] Bot : Run-flat tyres can continue driving at reduced speed (up to 50 miles) after a puncture, so you can safely reach a garage without changing the tyre on the roadside.
+----------------------------------------
+[2026-03-26 19:41:52] User: Classify this image
+[2026-03-26 19:41:52] Bot : I am 80.2% sure that is a car.
+----------------------------------------
+[2026-03-26 19:43:51] User: exit
+[2026-03-26 19:43:51] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-26 19:45:24] User: hi
+[2026-03-26 19:45:24] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-26 21:10:28] User: hello
+[2026-03-26 21:10:28] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-26 21:11:40] User: what is your name
+[2026-03-26 21:11:40] Bot : I am VehicleBot, your friendly automotive assistant built for the ISYS30221 coursework!
+----------------------------------------
+[2026-03-26 21:11:48] User: what can you do
+[2026-03-26 21:11:48] Bot : I can answer questions about vehicles, electric cars, car types, engines, safety features, and more. I also have a knowledge base and can search Wikipedia. Try asking me something!
+----------------------------------------
+[2026-03-26 21:11:56] User: what is toque
+[2026-03-26 21:11:56] Bot : Transmission refers to the gearbox. It transmits power from the engine to the wheels.
+----------------------------------------
+[2026-03-26 21:12:10] User: what is torque
+[2026-03-26 21:12:10] Bot : Torque is the rotational force produced by the engine, measured in Newton-metres (Nm). It determines how quickly a vehicle can accelerate, especially from a standstill.
+----------------------------------------
+[2026-03-26 21:12:19] User: what is MPG
+[2026-03-26 21:12:19] Bot : MPG stands for Miles Per Gallon. It measures fuel efficiency. Higher MPG means better fuel economy and lower fuel costs.
+----------------------------------------
+[2026-03-26 21:14:16] User: What is fuel economy?
+[2026-03-26 21:14:16] Bot : Fuel economy measures how efficiently a vehicle uses fuel, often in miles per gallon or litres per 100 km.
+----------------------------------------
+[2026-03-26 21:14:40] User: What is vehicle insurance?
+[2026-03-26 21:14:40] Bot : Vehicle insurance is a contract that covers financial loss if your car is damaged, stolen or causes injury or damage.
+----------------------------------------
+[2026-03-26 21:14:48] User: What are run flat tyres?
+[2026-03-26 21:14:48] Bot : Run-flat tyres can continue driving at reduced speed (up to 50 miles) after a puncture, so you can safely reach a garage without changing the tyre on the roadside.
+----------------------------------------
+[2026-03-26 21:14:53] User: What is lane assist?
+[2026-03-26 21:14:53] Bot : Lane assist uses cameras to detect lane markings and gently steers the car back into the lane if you start to drift without indicating.
+----------------------------------------
+[2026-03-26 21:14:59] User: What is fuel economy in cars?
+[2026-03-26 21:14:59] Bot : Fuel economy measures how efficiently a vehicle uses fuel, often in miles per gallon or litres per 100 km.
+----------------------------------------
+[2026-03-26 21:18:04] User: Check that Tesla is Electric
+[2026-03-26 21:18:04] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 21:18:25] User: Check that Tesla is Vehicle
+[2026-03-26 21:18:25] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 21:19:09] User: Check that Tesla is Petrol
+[2026-03-26 21:19:09] Bot : Incorrect. That is false.
+----------------------------------------
+[2026-03-26 21:20:06] User: Check that Bugatti is Expensive
+[2026-03-26 21:20:06] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 21:20:56] User: I know that NissanLeaf is Electric
+[2026-03-26 21:20:56] Bot : OK, I will remember that NissanLeaf is Electric.
+----------------------------------------
+[2026-03-26 21:21:19] User: Check that NissanLeaf is Electric
+[2026-03-26 21:21:19] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 21:21:25] User: Check that NissanLeaf is Vehicle
+[2026-03-26 21:21:25] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-26 21:22:22] User: Check that NissanLeaf is Petrol
+[2026-03-26 21:22:22] Bot : Incorrect. That is false.
+----------------------------------------
+[2026-03-26 21:23:00] User: Check that BMW is Vehicle
+[2026-03-26 21:23:00] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-26 21:24:41] User: What is in this image
+[2026-03-26 21:24:41] Bot : I am 87.9% sure that is a truck.
+----------------------------------------
+[2026-03-26 21:25:17] User: What is in this image
+[2026-03-26 21:25:17] Bot : I am 80.2% sure that is a car.
+----------------------------------------
+[2026-03-26 21:29:31] User: what is in this image
+[2026-03-26 21:29:31] Bot : I am 99.9% sure that is a motorcycle.
+----------------------------------------
+[2026-03-27 10:32:40] User: hello
+[2026-03-27 10:32:40] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-27 10:33:05] User: what is your name
+[2026-03-27 10:33:05] Bot : I am VehicleBot, your friendly automotive assistant built for the ISYS30221 coursework!
+----------------------------------------
+[2026-03-27 10:35:33] User: what can do you
+[2026-03-27 10:35:33] Bot : Hybrid cars save fuel by using the electric motor at low speeds and switching to the petrol engine at higher speeds. They also use regenerative braking to recharge the battery.
+----------------------------------------
+[2026-03-27 10:35:46] User: what can you do
+[2026-03-27 10:35:46] Bot : I can answer questions about vehicles, electric cars, car types, engines, safety features, and more. I also have a knowledge base and can search Wikipedia. Try asking me something!
+----------------------------------------
+[2026-03-27 10:37:24] User: what is torque
+[2026-03-27 10:37:24] Bot : Torque is the rotational force produced by the engine, measured in Newton-metres (Nm). It determines how quickly a vehicle can accelerate, especially from a standstill.
+----------------------------------------
+[2026-03-27 10:38:08] User: check that tesla is electric
+[2026-03-27 10:38:08] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-27 10:38:28] User: i know that tesla is petrol
+[2026-03-27 10:38:28] Bot : I cannot accept that. It contradicts my knowledge base! (I know that Tesla is NOT Petrol)
+----------------------------------------
+[2026-03-27 10:38:55] User: check that nissanleaf is electric
+[2026-03-27 10:38:55] Bot : Sorry, I don't know if that is true based on my current knowledge.
+----------------------------------------
+[2026-03-27 10:39:11] User: i know that nissanleaf is electric
+[2026-03-27 10:39:11] Bot : OK, I will remember that nissanleaf is electric.
+----------------------------------------
+[2026-03-27 10:39:26] User: check that nissanleaf is electric
+[2026-03-27 10:39:26] Bot : Correct. That is true.
+----------------------------------------
+[2026-03-27 10:40:35] User: what is in this image
+[2026-03-27 10:40:35] Bot : I am 80.2% sure that is a car.
+----------------------------------------
+[2026-03-27 10:40:59] User: classify this image
+[2026-03-27 10:40:59] Bot : I am 80.2% sure that is a car.
+----------------------------------------
+[2026-03-27 10:41:26] User: what is in this image
+[2026-03-27 10:41:26] Bot : I am 99.9% sure that is a motorcycle.
+----------------------------------------
+[2026-03-27 10:41:36] User: what is in image
+[2026-03-27 10:41:36] Bot : Torque is the rotational force produced by the engine, important for acceleration and towing.
+----------------------------------------
+[2026-03-27 10:41:56] User: what is in this image
+[2026-03-27 10:41:56] Bot : I am 87.9% sure that is a truck.
+----------------------------------------
+[2026-03-27 10:44:02] User: bye
+[2026-03-27 10:44:02] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------
+[2026-03-27 11:10:36] User: hello
+[2026-03-27 11:10:36] Bot : Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.
+----------------------------------------
+[2026-03-27 11:10:37] User: bye
+[2026-03-27 11:10:37] Bot : Bye! Nice talking to you. Drive safely!
+----------------------------------------

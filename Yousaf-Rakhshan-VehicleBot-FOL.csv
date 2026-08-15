@@ -1,0 +1,18 @@
+#!/usr/bin/env python3
+#first order logic knowledge base
+
+Electric(Tesla)
+Petrol(Ford)
+Diesel(Truck)
+Hybrid(Prius)
+Fast(Bugatti)
+Expensive(Bugatti)
+German(BMW)
+Japanese(Toyota)
+all x. (Electric(x) -> Vehicle(x))
+all x. (Petrol(x) -> Vehicle(x))
+all x. (Diesel(x) -> Vehicle(x))
+all x. (Hybrid(x) -> Vehicle(x))
+all x. (Electric(x) -> -Petrol(x))
+all x. (Electric(x) -> -Diesel(x))
+all x. (Fast(x) -> Expensive(x))

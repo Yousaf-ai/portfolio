@@ -1,0 +1,573 @@
+<aiml version="1.0.1" encoding="UTF-8">
+# ml  rules
+
+
+
+# user starting chat ************************
+
+<category>
+  <pattern>HELLO</pattern>
+  <template>Hello! I am VehicleBot. Ask me anything about cars, EVs, or automotive technology.</template>
+</category>
+
+<category><pattern>HELLO *</pattern>
+  <template><srai>HELLO</srai></template></category>
+
+<category><pattern>HI</pattern>
+  <template><srai>HELLO</srai></template></category>
+
+<category><pattern>HI *</pattern>
+  <template><srai>HELLO</srai></template></category>
+
+<category><pattern>HEY</pattern>
+  <template><srai>HELLO</srai></template></category>
+
+<category><pattern>HEY *</pattern>
+  <template><srai>HELLO</srai></template></category>
+
+<category><pattern>GOOD MORNING</pattern>
+  <template>Good morning! Ready to talk about vehicles?</template></category>
+
+<category><pattern>GOOD AFTERNOON</pattern>
+  <template>Good afternoon! What would you like to know about cars today?</template></category>
+
+<category><pattern>GOOD EVENING</pattern>
+  <template>Good evening! Feel free to ask me any vehicle questions.</template></category>
+
+<category>
+  <pattern>HOW ARE YOU</pattern>
+  <template>My engine is running smoothly, thanks for asking. What would you like to know?</template>
+</category>
+
+<category><pattern>HOW ARE YOU *</pattern>
+  <template><srai>HOW ARE YOU</srai></template></category>
+
+<category>
+  <pattern>I AM FINE</pattern>
+  <template>Great to hear! What would you like to discuss about vehicles?</template>
+</category>
+
+<category><pattern>I AM GOOD</pattern>
+  <template><srai>I AM FINE</srai></template></category>
+
+<category><pattern>I AM OK</pattern>
+  <template><srai>I AM FINE</srai></template></category>
+
+
+
+
+# user ending chat ************************
+
+<category><pattern>BYE</pattern>
+  <template>#0$Bye! Nice talking to you. Drive safely!</template></category>
+
+<category><pattern>GOODBYE</pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category><pattern>EXIT</pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category><pattern>QUIT</pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category><pattern>SEE YOU</pattern>
+  <template><srai>BYE</srai></template></category>
+
+<category><pattern>SEE YOU *</pattern>
+  <template><srai>BYE</srai></template></category>
+
+
+
+
+# thanks ************************
+
+<category><pattern>THANKS</pattern>
+  <template>You are welcome! Feel free to ask more.</template></category>
+
+<category><pattern>THANK YOU</pattern>
+  <template><srai>THANKS</srai></template></category>
+
+<category><pattern>THANK YOU *</pattern>
+  <template><srai>THANKS</srai></template></category>
+
+<category><pattern>CHEERS</pattern>
+  <template>Sure mate. Ask away!</template></category>
+
+<category><pattern>CHEERS *</pattern>
+  <template>Sure mate. Ask away!</template></category>
+
+
+
+
+# bot identity ************************
+
+<category>
+  <pattern>WHAT IS YOUR NAME</pattern>
+  <template>I am VehicleBot, your friendly automotive assistant built for the ISYS30221 coursework!</template>
+</category>
+
+<category><pattern>WHO ARE YOU</pattern>
+  <template><srai>WHAT IS YOUR NAME</srai></template></category>
+
+<category>
+  <pattern>WHAT CAN YOU DO</pattern>
+  <template>I can answer questions about vehicles, electric cars, car types, engines, safety features, and more. I also have a knowledge base and can search Wikipedia. Try asking me something!</template>
+</category>
+
+<category>
+  <pattern>HELP</pattern>
+  <template>Here are some things you can ask me about: electric cars, hybrid cars, SUVs, sedans, hatchbacks, Tesla, ABS, cruise control, turbocharging, torque, horsepower, fuel efficiency, autonomous driving, car servicing, MOT tests, road tax, tyres, and much more!</template>
+</category>
+
+<category><pattern>HELP *</pattern>
+  <template><srai>HELP</srai></template></category>
+
+
+
+
+# electric vehicles ************************
+
+<category>
+  <pattern>WHAT IS AN ELECTRIC CAR</pattern>
+  <template>An electric car uses one or more electric motors powered by a rechargeable battery pack instead of a petrol or diesel combustion engine. Popular examples include the Tesla Model 3, Nissan Leaf, and Hyundai Ioniq 5.</template>
+</category>
+
+<category><pattern>WHAT IS AN EV</pattern>
+  <template><srai>WHAT IS AN ELECTRIC CAR</srai></template></category>
+
+<category><pattern>WHAT IS AN ELECTRIC VEHICLE</pattern>
+  <template><srai>WHAT IS AN ELECTRIC CAR</srai></template></category>
+
+<category>
+  <pattern>HOW DO ELECTRIC CARS WORK</pattern>
+  <template>Electric cars use a large lithium-ion battery pack to power one or more electric motors. You charge the battery by plugging into a charging station. When you press the accelerator, the motor draws energy from the battery to turn the wheels.</template>
+</category>
+
+<category>
+  <pattern>WHAT ARE THE ADVANTAGES OF ELECTRIC CARS</pattern>
+  <template>Electric cars have lower running costs, zero tailpipe emissions, quieter operation, instant torque for quick acceleration, and fewer moving parts which means less maintenance.</template>
+</category>
+
+<category>
+  <pattern>WHAT ARE THE DISADVANTAGES OF ELECTRIC CARS</pattern>
+  <template>Electric cars can have limited range, longer refuelling times compared to petrol, higher upfront purchase costs, and dependence on charging infrastructure. Battery degradation over time is also a concern.</template>
+</category>
+
+<category>
+  <pattern>HOW LONG DOES IT TAKE TO CHARGE AN ELECTRIC CAR</pattern>
+  <template>It depends on the charger type. A home charger (7kW) takes 6-12 hours. A public rapid charger (50kW+) can charge to 80 percent in 20-40 minutes. Ultra-rapid chargers are even faster.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS EV RANGE</pattern>
+  <template>EV range is how far an electric vehicle can travel on a single full charge. Modern EVs typically offer between 150 and 400 miles depending on battery size, driving style, and conditions.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS AN EV CHARGING POINT</pattern>
+  <template>An EV charging point is equipment that supplies electric energy to recharge electric vehicle batteries. They range from slow home chargers to ultra-rapid public chargers.</template>
+</category>
+
+<category>
+  <pattern>HOW MUCH DOES IT COST TO CHARGE AN ELECTRIC CAR</pattern>
+  <template>Charging at home typically costs between 3 to 8 pounds for a full charge depending on electricity rates. Public rapid chargers usually cost around 30-40p per kWh.</template>
+</category>
+
+
+
+
+# hybrid vehicles ************************
+
+<category>
+  <pattern>WHAT IS A HYBRID CAR</pattern>
+  <template>A hybrid car combines an internal combustion engine with one or more electric motors to improve fuel efficiency and reduce emissions. Examples include the Toyota Prius and Honda Civic Hybrid.</template>
+</category>
+
+<category><pattern>WHAT IS A HYBRID</pattern>
+  <template><srai>WHAT IS A HYBRID CAR</srai></template></category>
+
+<category>
+  <pattern>WHAT IS A PLUG IN HYBRID</pattern>
+  <template>A plug-in hybrid (PHEV) has a larger battery that can be charged from an external power source. It can typically drive 20-50 miles on electric power alone before switching to the petrol engine.</template>
+</category>
+
+<category><pattern>WHAT IS A PHEV</pattern>
+  <template><srai>WHAT IS A PLUG IN HYBRID</srai></template></category>
+
+<category>
+  <pattern>HOW DO HYBRID CARS SAVE FUEL</pattern>
+  <template>Hybrids save fuel by using the electric motor at low speeds and switching to the petrol engine at higher speeds. They also use regenerative braking to recapture energy that would otherwise be lost.</template>
+</category>
+
+
+
+
+# car types ************************
+
+<category>
+  <pattern>WHAT ARE THE TYPES OF VEHICLES</pattern>
+  <template>The main types include: Sedans, Hatchbacks, SUVs, Crossovers, Coupes, Convertibles, Estate cars, MPVs, Pick-up trucks, and Vans. They can be powered by petrol, diesel, electric, or hybrid engines.</template>
+</category>
+
+<category><pattern>WHAT TYPES OF CARS ARE THERE</pattern>
+  <template><srai>WHAT ARE THE TYPES OF VEHICLES</srai></template></category>
+
+<category>
+  <pattern>WHAT IS A SEDAN</pattern>
+  <template>A sedan is a passenger car with a three-box body: separate compartments for engine, passengers, and boot. Examples include the Toyota Camry, Honda Accord, and BMW 3 Series.</template>
+</category>
+
+<category><pattern>WHAT IS A SALOON</pattern>
+  <template><srai>WHAT IS A SEDAN</srai></template></category>
+
+<category>
+  <pattern>WHAT IS A HATCHBACK</pattern>
+  <template>A hatchback has a rear door that swings upward to provide access to the cargo area. They are typically compact and fuel-efficient. Examples include the VW Golf, Ford Focus, and Toyota Yaris.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS A SUV</pattern>
+  <template>An SUV (Sport Utility Vehicle) is a taller car with higher ground clearance and more interior space. Many offer all-wheel drive. Examples include the Range Rover, Toyota RAV4, and BMW X5.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS A CROSSOVER</pattern>
+  <template>A crossover is built on a car platform but has SUV-like features such as higher ground clearance and optional all-wheel drive. Examples include the Nissan Qashqai and Kia Sportage.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS A COUPE</pattern>
+  <template>A coupe is a two-door car with a fixed roof and sporty design. They prioritise style and performance over practicality. Examples include the BMW 4 Series and Audi TT.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS A CONVERTIBLE</pattern>
+  <template>A convertible has a roof that can be folded down or removed for open-air driving. Examples include the Mazda MX-5, BMW Z4, and Porsche 911 Cabriolet.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS AN ESTATE CAR</pattern>
+  <template>An estate car (also called a wagon) has an extended rear cargo area. They offer more luggage space than sedans. Examples include the Volvo V60 and Skoda Superb Estate.</template>
+</category>
+
+<category><pattern>WHAT IS A WAGON</pattern>
+  <template><srai>WHAT IS AN ESTATE CAR</srai></template></category>
+
+
+
+
+# engine and preformance ************************
+
+<category>
+  <pattern>WHAT IS HORSEPOWER</pattern>
+  <template>Horsepower (hp) measures engine power output. A typical family car has 150-200 hp, while sports cars can exceed 500 hp. One horsepower equals about 746 watts.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS TORQUE</pattern>
+  <template>Torque is the rotational force produced by the engine, measured in Newton-metres (Nm). It determines how quickly a vehicle can accelerate, especially from a standstill.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS A TURBO</pattern>
+  <template>A turbocharger uses exhaust gases to spin a turbine that forces more air into the engine, creating more power without increasing engine size. This improves both performance and efficiency.</template>
+</category>
+
+<category><pattern>WHAT IS TURBOCHARGING</pattern>
+  <template><srai>WHAT IS A TURBO</srai></template></category>
+
+<category><pattern>WHAT IS A TURBOCHARGER</pattern>
+  <template><srai>WHAT IS A TURBO</srai></template></category>
+
+<category>
+  <pattern>WHAT IS A SUPERCHARGER</pattern>
+  <template>A supercharger is similar to a turbo but is driven mechanically by the engine via a belt rather than by exhaust gases. It provides instant boost without turbo lag.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS MPG</pattern>
+  <template>MPG stands for Miles Per Gallon. It measures fuel efficiency. Higher MPG means better fuel economy and lower fuel costs.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE DIFFERENCE BETWEEN AUTOMATIC AND MANUAL</pattern>
+  <template>Manual transmission requires the driver to change gears using a clutch pedal and gear stick. Automatic transmission shifts gears for you. Automatics are easier to drive but manuals give more control.</template>
+</category>
+
+<category><pattern>AUTOMATIC OR MANUAL</pattern>
+  <template><srai>WHAT IS THE DIFFERENCE BETWEEN AUTOMATIC AND MANUAL</srai></template></category>
+
+<category>
+  <pattern>WHAT IS TRANSMISSION</pattern>
+  <template>The transmission (gearbox) transfers power from the engine to the wheels. It allows the engine to operate efficiently across different speeds by changing gear ratios.</template>
+</category>
+
+
+
+
+# fuel tyoes ************************
+
+<category>
+  <pattern>SHOULD I BUY A PETROL OR DIESEL CAR</pattern>
+  <template>Petrol suits short city journeys and is usually cheaper to buy. Diesel is better for high mileage motorway driving with better fuel economy, but emissions rules are stricter for diesel in many cities.</template>
+</category>
+
+<category><pattern>PETROL OR DIESEL</pattern>
+  <template><srai>SHOULD I BUY A PETROL OR DIESEL CAR</srai></template></category>
+
+<category>
+  <pattern>WHAT IS A HYDROGEN CAR</pattern>
+  <template>A hydrogen fuel cell car generates electricity by combining hydrogen and oxygen. The only emission is water vapour. Examples include the Toyota Mirai and Hyundai Nexo, but refuelling stations are still rare.</template>
+</category>
+
+<category><pattern>WHAT IS A HYDROGEN FUEL CELL</pattern>
+  <template><srai>WHAT IS A HYDROGEN CAR</srai></template></category>
+
+
+
+
+# safety features ************************
+
+<category>
+  <pattern>WHAT IS ABS</pattern>
+  <template>ABS (Anti-lock Braking System) prevents wheels from locking during hard braking, helping you maintain steering control and stop safely.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS REGENERATIVE BRAKING</pattern>
+  <template>Regenerative braking recovers kinetic energy during braking and converts it into electrical energy stored in the battery, extending the range of electric and hybrid vehicles.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS CRUISE CONTROL</pattern>
+  <template>Cruise control automatically maintains a set speed without you needing to keep your foot on the accelerator. Adaptive cruise control also adjusts speed to maintain distance from the car ahead.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS LANE ASSIST</pattern>
+  <template>Lane assist uses cameras to detect lane markings and gently steers the car back into the lane if you start to drift without indicating.</template>
+</category>
+
+<category>
+  <pattern>WHAT ARE AIRBAGS</pattern>
+  <template>Airbags are inflatable cushions built into the car that deploy in a collision to protect occupants from impact. Modern cars have front, side, and curtain airbags.</template>
+</category>
+
+<category>
+  <pattern>WHAT SAFETY FEATURES DO MODERN CARS HAVE</pattern>
+  <template>Modern cars include ABS, electronic stability control, airbags, lane departure warning, adaptive cruise control, automatic emergency braking, blind spot monitoring, and parking sensors.</template>
+</category>
+
+
+
+
+# maintenance and ownership ************************
+
+<category>
+  <pattern>HOW OFTEN SHOULD I SERVICE MY CAR</pattern>
+  <template>Most manufacturers recommend servicing every 12 months or every 10,000-15,000 km, whichever comes first. Regular servicing keeps the car safe, reliable, and efficient.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE MOT TEST</pattern>
+  <template>The MOT is an annual inspection required for vehicles over 3 years old in the UK. It checks road safety and emissions standards including brakes, lights, tyres, and exhaust.</template>
+</category>
+
+<category><pattern>WHAT IS MOT</pattern>
+  <template><srai>WHAT IS THE MOT TEST</srai></template></category>
+
+<category>
+  <pattern>WHAT IS ROAD TAX</pattern>
+  <template>Road tax (Vehicle Excise Duty) is a tax you pay to legally drive on UK roads. The amount depends on CO2 emissions. Electric vehicles are currently exempt from road tax in the UK.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS CAR INSURANCE</pattern>
+  <template>Car insurance is a legal requirement that covers damage or injury costs in an accident. There are three levels: third party, third party fire and theft, and fully comprehensive.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS CAR LEASING</pattern>
+  <template>Car leasing is a long-term rental where you pay monthly for 2-4 years then return the car. It often has lower upfront costs than buying but you do not own the vehicle at the end.</template>
+</category>
+
+<category>
+  <pattern>HOW DO I IMPROVE FUEL EFFICIENCY</pattern>
+  <template>Maintain correct tyre pressure, drive smoothly, avoid excessive idling, remove unnecessary weight, keep up with servicing, and use cruise control on motorways.</template>
+</category>
+
+
+
+
+# driving and drivetrains ************************
+
+<category>
+  <pattern>WHAT IS FOUR WHEEL DRIVE</pattern>
+  <template>Four-wheel drive (4WD) sends power to all four wheels simultaneously, providing better traction on slippery or off-road surfaces.</template>
+</category>
+
+<category><pattern>WHAT IS 4WD</pattern>
+  <template><srai>WHAT IS FOUR WHEEL DRIVE</srai></template></category>
+
+<category>
+  <pattern>WHAT IS AWD</pattern>
+  <template>AWD (All-Wheel Drive) automatically distributes power to all four wheels. Unlike 4WD, it operates continuously and is common in SUVs and crossovers for on-road grip.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE DIFFERENCE BETWEEN AWD AND 4WD</pattern>
+  <template>AWD operates automatically and continuously, while 4WD is typically manually engaged and designed for off-road use. AWD is better for road driving in bad weather, 4WD for serious off-roading.</template>
+</category>
+
+
+
+
+# autonomous driving ************************
+
+<category>
+  <pattern>WHAT IS AUTONOMOUS DRIVING</pattern>
+  <template>Autonomous driving uses sensors, cameras, and AI so a vehicle can steer, accelerate, and brake with reduced or no human input. There are 6 levels from Level 0 (no automation) to Level 5 (full automation).</template>
+</category>
+
+<category><pattern>WHAT IS SELF DRIVING</pattern>
+  <template><srai>WHAT IS AUTONOMOUS DRIVING</srai></template></category>
+
+
+
+# basic manufacturers ************************
+
+<category>
+  <pattern>TELL ME ABOUT TESLA</pattern>
+  <template>Tesla is an American electric vehicle manufacturer founded by Elon Musk. Their models include the Model S, Model 3, Model X, and Model Y. Tesla pioneered long-range EVs and advanced autopilot technology.</template>
+</category>
+
+<category>
+  <pattern>TELL ME ABOUT BMW</pattern>
+  <template>BMW is a German luxury car manufacturer known for sporty driving dynamics. Their range includes sedans, SUVs, and electric vehicles like the iX and i4.</template>
+</category>
+
+<category>
+  <pattern>TELL ME ABOUT TOYOTA</pattern>
+  <template>Toyota is a Japanese manufacturer and the world's largest car maker. They pioneered hybrid technology with the Prius and are known for reliability.</template>
+</category>
+
+<category>
+  <pattern>TELL ME ABOUT MERCEDES</pattern>
+  <template>Mercedes-Benz is a German luxury manufacturer known for comfort and innovation. Their electric EQ range includes the EQS, EQE, and EQA.</template>
+</category>
+
+
+
+
+# tyres and components ************************
+
+<category>
+  <pattern>WHAT ARE RUN FLAT TYRES</pattern>
+  <template>Run-flat tyres can continue driving at reduced speed (up to 50 miles) after a puncture, so you can safely reach a garage without changing the tyre on the roadside.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS A CATALYTIC CONVERTER</pattern>
+  <template>A catalytic converter is part of the exhaust system that converts toxic gases like carbon monoxide and nitrogen oxides into less harmful substances like carbon dioxide and water vapour.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS A DASHCAM</pattern>
+  <template>A dashcam is a camera mounted on the dashboard or windscreen that records video while driving. It provides evidence in accidents and may help reduce insurance premiums.</template>
+</category>
+
+
+
+
+# records and some fun facts ************************
+
+<category>
+  <pattern>WHAT IS THE FASTEST CAR</pattern>
+  <template>The Bugatti Chiron Super Sport 300+ holds the production car speed record at 304 mph. Other contenders include the SSC Tuatara and Koenigsegg Jesko.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE BEST FAMILY CAR</pattern>
+  <template>Popular family cars include the Skoda Octavia, Volkswagen Tiguan, Ford Kuga, and Kia Sportage. The best choice depends on your budget, space needs, and preferred fuel type.</template>
+</category>
+
+<category>
+  <pattern>WHAT IS THE CHEAPEST ELECTRIC CAR</pattern>
+  <template>Some of the most affordable electric cars in the UK include the Dacia Spring, MG4, and Fiat 500e. Prices and government grants change regularly so it is worth checking current offers.</template>
+</category>
+
+
+
+
+# Wikipedia API (explicit "WHAT IS A *" catch) ************************
+
+<category><pattern>WHAT IS A *</pattern>
+  <template>#1$<star/></template></category>
+
+<category><pattern>WHAT IS AN *</pattern>
+  <template><srai>WHAT IS A <star/></srai></template></category>
+
+<category><pattern>DEFINE *</pattern>
+  <template><srai>WHAT IS A <star/></srai></template></category>
+
+<category><pattern>WHO IS *</pattern>
+  <template>#1$<star/></template></category>
+
+
+
+
+# Task B: Logical Reasoning ************************
+
+#Pattern: "I know that Tesla is Electric"
+#Sends to Python command #5 with "Tesla" and "Electric"
+<category>
+    <pattern>I KNOW THAT * IS *</pattern>
+    <template>#5$<star/>$<star index="2"/></template>
+</category>
+
+#Pattern: "Check that Tesla is Electric"
+#Sends to Python command #6 with "Tesla" and "Electric"
+<category>
+    <pattern>CHECK THAT * IS *</pattern>
+    <template>#6$<star/>$<star index="2"/></template>
+</category>
+
+<category>
+    <pattern>IS * *</pattern>
+    <template><srai>CHECK THAT <star/> IS <star index="2"/></srai></template>
+</category>
+
+
+
+
+# Task C: image Recognition ************************
+
+<category>
+    <pattern>WHAT IS IN THIS IMAGE</pattern>
+    <template>#7$Image Check</template>
+</category>
+
+<category>
+    <pattern>CLASSIFY THIS IMAGE</pattern>
+    <template>#7$Image Check</template>
+</category>
+
+<category>
+    <pattern>CHECK THIS IMAGE</pattern>
+    <template>#7$Image Check</template>
+</category>
+
+<category>
+    <pattern>IMAGE</pattern>
+    <template>#7$Image Check</template>
+</category>
+
+
+
+
+# catch all default - send to python for similarity + wiki search ************************
+
+<category><pattern>*</pattern>
+  <template>#99$<star/></template></category>
+
+</aiml>

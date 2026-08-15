@@ -1,0 +1,7 @@
+.hosting.json
+.vercel
+node_modules/
+tools/
+*.zip
+
+.env*
