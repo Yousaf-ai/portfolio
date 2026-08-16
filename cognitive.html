@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <link rel="stylesheet" href="styles.css?v=github-icon-2026" />
+  <link rel="stylesheet" href="styles.css?v=cog-portfolio-2026" />
 </head>
 <body>
   <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
@@ -55,10 +55,11 @@
       <p class="eyebrow">Cognitive focus</p>
       <h1>Cognitive Computing &amp; <span class="gradient-text">Autonomous Systems</span></h1>
       <p class="page-lead">
-        Building systems that perceive, reason, and respond — cognitive computing principles applied to autonomous decision-making, environmental sensors, and intelligent user engagement.
+        Building systems that perceive, reason, and respond — Bayesian perception, ROS2 navigation in simulation, probabilistic 3D mapping, and a separate group robot project.
       </p>
       <div class="hero-actions">
-        <a class="btn btn-primary" href="https://github.com/akshaymehay28/Autonomous-Mobile-Robot_ROS2" target="_blank" rel="noopener">GitHub — ROS2 project ↗</a>
+        <a class="btn btn-primary" href="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf" download="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf">Download individual portfolio (PDF)</a>
+        <a class="btn btn-glass" href="https://github.com/akshaymehay28/Autonomous-Mobile-Robot_ROS2" target="_blank" rel="noopener">GitHub — group ROS2 project ↗</a>
         <a class="btn btn-glass" href="https://1drv.ms/f/c/1d25dcc6835dd2a4/IgCz1BCA6hTmSqs3jeHPDaZsAZf6By2L3u3EVHBSFeifSNs?e=N3pi9l" target="_blank" rel="noopener">Watch cognitive video ↗</a>
       </div>
       <div class="hero-result">
@@ -77,21 +78,141 @@
       </div>
       <div class="interest-tags glass-card">
         <span>Cognitive Computing</span>
-        <span>Autonomous Decision Systems</span>
-        <span>ROS2</span>
+        <span>Bayesian Inference</span>
+        <span>Multisensory Perception</span>
+        <span>ROS2 NAV2</span>
+        <span>Gazebo</span>
+        <span>OctoMap</span>
+        <span>SLAM</span>
         <span>Object Detection</span>
-        <span>Environmental Response</span>
         <span>Sensor Integration</span>
-        <span>Intelligent Engagement</span>
-        <span>Computer Vision</span>
-        <span>On-device AI</span>
+        <span>Autonomous Systems</span>
       </div>
     </section>
 
-    <section class="section">
+    <section class="section" id="individual-portfolio">
+      <div class="section-head">
+        <p class="eyebrow">Individual portfolio</p>
+        <h2>Perception, navigation, and 3D mapping</h2>
+        <p class="section-desc">COMP30271 individual submissions — Bayesian programming for perception, ROS2 navigation in Gazebo, and OctoMap mapping. This is my own report, not the group robot project below.</p>
+      </div>
+
+      <div class="featured-projects">
+        <article id="bayesian-perception" class="project-feature glass-card">
+          <div class="project-visual visual-bayes" role="img" aria-label="Bayesian programming for perception">
+            <span class="visual-label">Bayesian · Perception</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="tag">COMP30271 · Portfolio 1</span>
+              <span class="year">2026</span>
+            </div>
+            <h3>Bayesian Programming for Perception</h3>
+            <p class="project-problem">Implemented Körding et al.’s generative model of audiovisual localisation to reproduce the ventriloquist effect: the brain infers whether sight and sound share a cause, then fuses or separates them according to sensory reliability.</p>
+            <ul class="contribution-list">
+              <li><strong>Generative model:</strong> Bernoulli causal structure (one source vs two), Gaussian spatial prior, and modality-specific noise so vision is more precise than audition — matching the Körding parameter regime.</li>
+              <li><strong>Ideal observer:</strong> Posterior over common vs independent causes, then inverse-variance fusion when a common cause is likely. Partial integration appears when evidence is ambiguous.</li>
+              <li><strong>10-trial qualitative run:</strong> Segregation for large disparities, partial fusion when cues overlap, strong visual capture on clear C=1 trials, and occasional noise-driven misclassifications.</li>
+              <li><strong>1,000-trial metrics:</strong> Causal accuracy ~81.9% (sensitivity 83.5%, specificity 80.3%); visual MAE 1.73° vs auditory ~5.5°; auditory ventriloquist shift 2.55° vs visual 0.14°.</li>
+            </ul>
+            <p><strong>Role:</strong> Sole author of the generative model, experiment loop, evaluation, and write-up. The ideal observer was the provided inference module.</p>
+            <div class="stat-row">
+              <div class="stat-pill">
+                <strong>81.9%</strong>
+                <span>Causal accuracy</span>
+              </div>
+              <div class="stat-pill">
+                <strong>2.55°</strong>
+                <span>Auditory shift</span>
+              </div>
+              <div class="stat-pill">
+                <strong>0.14°</strong>
+                <span>Visual shift</span>
+              </div>
+            </div>
+            <ul class="tech-list">
+              <li>Python</li><li>Bayesian inference</li><li>Causal inference</li><li>Multisensory integration</li><li>NumPy</li>
+            </ul>
+            <div class="card-links">
+              <a class="btn btn-primary" href="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf" download="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf">Download portfolio report (PDF)</a>
+            </div>
+          </div>
+        </article>
+
+        <article id="ros2-navigation" class="project-feature glass-card">
+          <div class="project-visual visual-nav" role="img" aria-label="ROS2 navigation in Gazebo">
+            <span class="visual-label">ROS2 · NAV2 · Gazebo</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="tag">COMP30271 · Portfolio 2</span>
+              <span class="year">2026</span>
+            </div>
+            <h3>Navigation with ROS2 in Gazebo</h3>
+            <p class="project-problem">Configured NAV2 on a simulated JetBot (differential drive, 2D LiDAR) in Gazebo, then compared global planners and local controllers in an office maze, plus a hospital speed–safety trade-off.</p>
+            <ul class="contribution-list">
+              <li><strong>Stack:</strong> AMCL localisation, NavFn / Theta* / Smac 2D planners, DWB and Regulated Pure Pursuit controllers, behaviour-tree navigator, costmaps with inflation.</li>
+              <li><strong>Planner comparison:</strong> All five configs reached the goal with no collisions. Fastest: NavFn + Regulated Pure Pursuit at 53.45s (22% faster than NavFn + DWB). Shortest path: Theta* + DWB at 10.33m (17% shorter).</li>
+              <li><strong>Hospital robot:</strong> Tested 0.15, 0.26, and 0.45 m/s. Recommended 0.26 m/s / 1.0 rad/s — 4/5 safety, 66.30s, smooth motion. Unsafe threshold ~0.4 m/s (near collision at 0.45 m/s).</li>
+              <li><strong>Limits:</strong> Docker CPU sat near 570% of 600% on my laptop, so RViz lagged during the five-test run. Local costmap was optional in this static maze but would matter with moving people.</li>
+            </ul>
+            <p><strong>Role:</strong> Sole author — launch/config, RViz goal tests, planner/controller comparison, and hospital recommendation.</p>
+            <div class="stat-row">
+              <div class="stat-pill">
+                <strong>53.45s</strong>
+                <span>Fastest (NavFn + RPP)</span>
+              </div>
+              <div class="stat-pill">
+                <strong>10.33m</strong>
+                <span>Shortest (Theta*)</span>
+              </div>
+              <div class="stat-pill">
+                <strong>0.26 m/s</strong>
+                <span>Hospital recommendation</span>
+              </div>
+            </div>
+            <ul class="tech-list">
+              <li>ROS2 Humble</li><li>NAV2</li><li>Gazebo</li><li>AMCL</li><li>DWB</li><li>RViz</li><li>JetBot</li>
+            </ul>
+            <div class="card-links">
+              <a class="btn btn-primary" href="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf" download="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf">Download portfolio report (PDF)</a>
+            </div>
+          </div>
+        </article>
+
+        <article id="octomap-slam" class="project-feature glass-card">
+          <div class="project-visual visual-slam" role="img" aria-label="OctoMap probabilistic 3D mapping">
+            <span class="visual-label">OctoMap · SLAM</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="tag">COMP30271 · Portfolio 3</span>
+              <span class="year">2026</span>
+            </div>
+            <h3>Probabilistic 3D Mapping with OctoMap</h3>
+            <p class="project-problem">Set out to feed RGB-D point clouds into <code>octomap_server2</code>, filter the ground plane, project a 2D occupancy grid, and drive Nav2 exploration in the maze. Initial mapping worked; full Nav2 integration did not.</p>
+            <ul class="contribution-list">
+              <li><strong>What ran:</strong> TF tree (<code>odom</code> → <code>base_link</code> → <code>camera_depth_frame</code>) verified; OctoMap subscribed to <code>/camera/depth/points</code>; teleop produced coloured wall voxels; first ground-filter pass made the floor transparent.</li>
+              <li><strong>What broke:</strong> After a full restart, the same ground-filter parameters left the floor solid across six rebuilds. Docker CPU near 600% made RViz voxels flicker, so it was hard to tell config error from lag.</li>
+              <li><strong>Not finished:</strong> Unified launch, projected-map costmap wiring, and sequential autonomous goals. The report documents the intended architecture, the failures, and what I would do next (commit working configs, better hardware, smaller debug slices).</li>
+            </ul>
+            <p><strong>Role:</strong> Sole author of the mapping attempt, parameter tuning, and the write-up of limits and lessons.</p>
+            <ul class="tech-list">
+              <li>OctoMap</li><li>RGB-D</li><li>ROS2</li><li>Nav2</li><li>Gazebo</li><li>RViz</li>
+            </ul>
+            <div class="card-links">
+              <a class="btn btn-primary" href="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf" download="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf">Download portfolio report (PDF)</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="group-project">
       <div class="section-head">
         <p class="eyebrow">Projects</p>
         <h2>Cognitive systems work</h2>
+        <p class="section-desc">Separate from the individual portfolios above — group ROS2 robot coursework led by Akshay and Arjan.</p>
       </div>
 
       <div class="featured-projects">
@@ -127,11 +248,17 @@
 
     <section class="section" id="links">
       <div class="section-head">
-        <p class="eyebrow">Links</p>
-        <h2>Project folder and video</h2>
-        <p class="section-desc">The GitHub repo is hosted by teammate Akshay. Open the OneDrive folder and play <strong>Cognitive Computing Portfolio Video</strong>.</p>
+        <p class="eyebrow">Files &amp; links</p>
+        <h2>Report, project folder, and video</h2>
+        <p class="section-desc">The PDF is my individual COMP30271 portfolio. The GitHub repo is the group project, hosted by teammate Akshay. Open the OneDrive folder and play <strong>Cognitive Computing Portfolio Video</strong>.</p>
       </div>
       <div class="download-grid">
+        <article class="download-card glass-card">
+          <p class="eyebrow">Individual · PDF</p>
+          <h3>Cognitive Computing portfolio report</h3>
+          <p>Full write-up of Portfolios 1–3: Bayesian perception, ROS2 NAV2 in Gazebo, and OctoMap mapping — original file <code>Portfolio doc Report N1230793.pdf</code>.</p>
+          <a class="btn btn-primary" href="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf" download="Yousaf-Rakhshan-Cognitive-Computing-Portfolio.pdf">Download PDF</a>
+        </article>
         <article class="download-card glass-card">
           <p class="eyebrow">Group project · GitHub</p>
           <h3>Autonomous Mobile Robot — ROS2</h3>
@@ -154,10 +281,11 @@
       </div>
       <div class="module-list glass-card">
         <ul>
-          <li>Cognitive Computing module — autonomous systems design</li>
-          <li>Environmental response and sensor-driven decision-making</li>
+          <li>COMP30271 Cognitive Computing — individual portfolios 1–3 and group robot work</li>
+          <li>Bayesian causal inference for multisensory perception (Körding et al., 2007)</li>
+          <li>ROS2 NAV2 — AMCL, global planners, DWB / Regulated Pure Pursuit</li>
+          <li>Probabilistic 3D mapping with OctoMap and RGB-D sensing</li>
           <li>Ethical AI — bias mitigation &amp; GDPR privacy-by-design</li>
-          <li>Autonomous systems with intelligent environmental response</li>
         </ul>
       </div>
     </section>

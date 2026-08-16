@@ -586,6 +586,18 @@ main {
   background: linear-gradient(145deg, #ff9f0a, #ffd60a);
 }
 
+.visual-bayes {
+  background: linear-gradient(145deg, #64d2ff, #bf5af2);
+}
+
+.visual-nav {
+  background: linear-gradient(145deg, #32ade6, #5856d6);
+}
+
+.visual-slam {
+  background: linear-gradient(145deg, #30d158, #5e5ce6);
+}
+
 .tag-soon {
   color: #9a6700;
   background: rgba(251, 188, 4, 0.2);
