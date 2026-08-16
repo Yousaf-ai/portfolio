@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="Yousaf Rakhshan — two native iOS apps from final year, Folio stock education, Shopwell shopping assistant, and pyala.co.uk." />
+  <meta name="description" content="Yousaf Rakhshan — two native iOS apps from final year, Detect AI, Folio stock education, Shopwell shopping assistant, and pyala.co.uk." />
   <title>Apps &amp; Websites — Yousaf Rakhshan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <link rel="stylesheet" href="styles.css?v=pyala-plain-2026" />
+  <link rel="stylesheet" href="styles.css?v=detect-ai-2026" />
 </head>
 <body>
   <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
@@ -55,12 +55,13 @@
       <p class="eyebrow">Build focus</p>
       <h1>Apps, Websites &amp; <span class="gradient-text">Product Design</span></h1>
       <p class="page-lead">
-        Two separate native iOS apps from final year — a skin disease and fitness assistant for my Final Year Project, and a birthday social app for Mobile Platform Applications. Both were built in Swift with Firebase, API keys, and Cursor. Email, Google, and Apple sign-in, plus a real database. No payment integration on either app. Live web work includes Folio, a stock-education site that teaches without recommending tickers; Shopwell, a UK shopping assistant; and a plain café website for Pyala at pyala.co.uk. The visual discovery app is still on the <a href="upcoming.html#upcoming">Upcoming</a> page.
+        Two separate native iOS apps from final year — a skin disease and fitness assistant for my Final Year Project, and a birthday social app for Mobile Platform Applications. Both were built in Swift with Firebase, API keys, and Cursor. Email, Google, and Apple sign-in, plus a real database. No payment integration on either app. Live web work includes Detect AI, an on-device image and video authenticity check; Folio, a stock-education site that teaches without recommending tickers; Shopwell, a UK shopping assistant; and a plain café website for Pyala at pyala.co.uk. The visual discovery app is still on the <a href="upcoming.html#upcoming">Upcoming</a> page.
       </p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="Yousaf-Rakhshan-Final-Year-Project-Report.pdf" download="Yousaf-Rakhshan-Final-Year-Project-Report.pdf">Download FYP report (PDF)</a>
         <a class="btn btn-glass" href="Yousaf-Rakhshan-Mobile-Application-Coursework.pdf" download="Yousaf-Rakhshan-Mobile-Application-Coursework.pdf">Download mobile coursework (PDF)</a>
         <a class="btn btn-glass" href="https://1drv.ms/f/c/1d25dcc6835dd2a4/IgCz1BCA6hTmSqs3jeHPDaZsAZf6By2L3u3EVHBSFeifSNs?e=N3pi9l" target="_blank" rel="noopener">Watch mobile demo ↗</a>
+        <a class="btn btn-glass" href="https://detect-ai-six.vercel.app" target="_blank" rel="noopener">Detect AI ↗</a>
         <a class="btn btn-glass" href="https://folio-sable-pi.vercel.app" target="_blank" rel="noopener">Folio ↗</a>
         <a class="btn btn-glass" href="https://shopping-assistant-omega.vercel.app" target="_blank" rel="noopener">Shopwell ↗</a>
         <a class="btn btn-glass" href="https://www.pyala.co.uk" target="_blank" rel="noopener">pyala.co.uk ↗</a>
@@ -97,6 +98,8 @@
         <span>Google / Apple / Email auth</span>
         <span>UI/UX Design</span>
         <span>Full-Stack Web</span>
+        <span>On-device AI</span>
+        <span>WebGPU</span>
         <span>SEO</span>
         <span>DevOps</span>
         <span>Agile / Scrum</span>
@@ -128,7 +131,7 @@
           <li>
             <div class="result-info">
               <a class="result-module" href="#websites">Independent web</a>
-              <span class="result-credits">Independent delivery · Folio · Shopwell · pyala.co.uk · more on the Upcoming page</span>
+              <span class="result-credits">Independent delivery · Detect AI · Folio · Shopwell · pyala.co.uk · more on the Upcoming page</span>
             </div>
             <span class="grade-pill grade-first">Live / in build</span>
           </li>
@@ -211,6 +214,33 @@
       </div>
 
       <div class="featured-projects">
+        <article id="detect-ai" class="project-feature glass-card">
+          <div class="project-visual visual-detect" role="img" aria-label="Detect AI on-device authenticity check">
+            <span class="visual-label">Live · Detect AI</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="tag">Independent · Live</span>
+              <span class="year">2026</span>
+            </div>
+            <h3><a href="https://detect-ai-six.vercel.app" target="_blank" rel="noopener">Detect AI — on-device authenticity check</a></h3>
+            <p class="project-problem">An on-device forensics tool, not an upload API and not legal proof. Drop an image or a video up to one minute; classifiers, frequency analysis, and provenance checks run in the browser. Nothing is uploaded, and there is no account.</p>
+            <ul class="contribution-list">
+              <li><strong>Drop media:</strong> JPG, PNG, WebP, GIF, MP4, MOV, WebM. Decode, EXIF, C2PA markers, FFT, and ONNX classifiers stay in the tab. First visit may download quantized models from Hugging Face into the browser cache.</li>
+              <li><strong>Ensemble:</strong> Three classifiers — a distilled AI-vs-real ViT, an SDXL-oriented detector, and a face-swap deepfake ViT — plus generator-agnostic forensics. Votes map to Authentic, Likely AI, AI-generated, or Undetermined. Disagreement is shown, not hidden.</li>
+              <li><strong>Coverage:</strong> Built for families of generators, not a logo list — Flux, Midjourney, Firefly, DALL·E, and SDXL-class stills; face swaps; Sora-class clips sampled to about twelve keyframes with a 60-second cap.</li>
+              <li><strong>Limits:</strong> New models, heavy social compression, and stripped metadata can produce false confidence. Missing EXIF never proves authenticity. The site states this is a forensic estimate for a portfolio tool, not a courtroom pack.</li>
+            </ul>
+            <p><strong>Role:</strong> Sole developer — product, on-device pipeline, ensemble rules, and deploy.</p>
+            <ul class="tech-list">
+              <li>Next.js</li><li>Transformers.js</li><li>WebGPU</li><li>ONNX</li><li>Canvas FFT</li>
+            </ul>
+            <div class="card-links">
+              <a class="btn btn-primary" href="https://detect-ai-six.vercel.app" target="_blank" rel="noopener">Open Detect AI ↗</a>
+            </div>
+          </div>
+        </article>
+
         <article id="folio" class="project-feature glass-card">
           <div class="project-visual visual-stock" role="img" aria-label="Folio stock education">
             <span class="visual-label">Live · Folio</span>

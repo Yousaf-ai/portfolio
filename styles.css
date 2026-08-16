@@ -598,6 +598,10 @@ main {
   background: linear-gradient(145deg, #30d158, #5e5ce6);
 }
 
+.visual-detect {
+  background: linear-gradient(145deg, #ff375f, #5e5ce6);
+}
+
 .tag-soon {
   color: #9a6700;
   background: rgba(251, 188, 4, 0.2);
