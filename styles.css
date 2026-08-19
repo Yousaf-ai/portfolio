@@ -1376,6 +1376,32 @@ a.result-module:hover {
   border-radius: 999px;
 }
 
+.skill-list {
+  margin: 0;
+  padding: 1.5rem 1.75rem;
+  list-style: none;
+  column-gap: 2rem;
+  column-count: 3;
+}
+
+.skill-list li {
+  padding: 0.5rem 0.75rem;
+  margin: 0 0 0.4rem;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: var(--text-secondary);
+  background: rgba(255, 255, 255, 0.7);
+  border: 1px solid rgba(0, 0, 0, 0.06);
+  border-radius: 10px;
+  break-inside: avoid;
+  -webkit-column-break-inside: avoid;
+}
+
+.skill-list li:hover {
+  border-color: var(--accent);
+  color: var(--text);
+}
+
 .module-list {
   padding: 1.5rem 1.75rem;
 }
@@ -1782,9 +1808,18 @@ a.result-module:hover {
   }
 }
 
+@media (max-width: 900px) {
+  .skill-list {
+    column-count: 2;
+  }
+}
+
 @media (max-width: 640px) {
   .stat-pill span {
     display: block;
+  }
+  .skill-list {
+    column-count: 1;
   }
 }
 
