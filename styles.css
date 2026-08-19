@@ -803,6 +803,126 @@ main {
   text-decoration: none;
 }
 
+/* Contact page — channel & document cards */
+.contact-section {
+  margin-top: 2.5rem;
+}
+
+.contact-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.contact-grid-docs {
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+}
+
+.contact-card {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 1.25rem 1.4rem;
+  border-radius: var(--radius);
+  text-decoration: none;
+  color: var(--text);
+  position: relative;
+  overflow: hidden;
+}
+
+.contact-card::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(135deg, rgba(0, 113, 227, 0.06), transparent 60%);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  pointer-events: none;
+}
+
+.contact-card:hover {
+  transform: translateY(-2px);
+  text-decoration: none;
+}
+
+.contact-card:hover::after {
+  opacity: 1;
+}
+
+.contact-card:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+.contact-icon {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 14px;
+  color: #fff;
+  background: var(--accent);
+  box-shadow: 0 6px 16px rgba(0, 113, 227, 0.28);
+}
+
+.contact-icon-github {
+  background: #1d1d1f;
+  box-shadow: 0 6px 16px rgba(29, 29, 31, 0.28);
+}
+
+.contact-icon-linkedin {
+  background: #0a66c2;
+  box-shadow: 0 6px 16px rgba(10, 102, 194, 0.28);
+}
+
+.contact-icon-doc {
+  background: linear-gradient(135deg, var(--google-red, #ea4335), #d93025);
+  box-shadow: 0 6px 16px rgba(233, 67, 53, 0.28);
+}
+
+.contact-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.15rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.contact-label {
+  font-size: 0.95rem;
+  font-weight: 600;
+  color: var(--text);
+  letter-spacing: -0.01em;
+}
+
+.contact-value {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.contact-arrow {
+  flex: none;
+  display: grid;
+  place-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 999px;
+  color: var(--text-tertiary);
+  background: rgba(0, 0, 0, 0.04);
+  transition: transform 0.25s ease, color 0.25s ease, background 0.25s ease;
+}
+
+.contact-card:hover .contact-arrow {
+  color: var(--accent);
+  background: var(--accent-soft);
+  transform: translateX(3px);
+}
+
 .education-card {
   padding: 2rem;
 }
