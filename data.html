@@ -25,30 +25,18 @@
   <header class="site-header glass">
     <nav class="nav">
       <a href="index.html">Home</a>
+      <a href="skills.html">Skills</a>
       <a href="ai.html">AI &amp; LLM</a>
       <a href="data.html" class="active">Data</a>
       <a href="cognitive.html">Cognitive</a>
       <a href="apps.html">Apps &amp; Web</a>
       <a href="upcoming.html">Upcoming</a>
+      <a href="contact.html">Contact</a>
     </nav>
     <button class="menu-toggle" aria-label="Open menu" aria-expanded="false">
       <span></span><span></span>
     </button>
   </header>
-
-  <div class="header-social glass">
-    <a class="header-social-btn" href="mailto:ryousaf315@gmail.com" aria-label="Email" title="Email">📧</a>
-    <a class="header-social-btn" href="https://github.com/yousaf-ai" target="_blank" rel="noopener" aria-label="GitHub" title="GitHub">
-      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
-        <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"/>
-      </svg>
-    </a>
-    <a class="header-social-btn" href="https://linkedin.com/in/yousaf-r" target="_blank" rel="noopener" aria-label="LinkedIn" title="LinkedIn">
-      <svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" focusable="false">
-        <path fill="currentColor" d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.35V9h3.28v1.56h.05c.46-.87 1.57-1.79 3.24-1.79 3.46 0 4.1 2.28 4.1 5.24v6.44zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45zM22.23 0H1.77C.79 0 0 .77 0 1.73v20.54C0 23.23.79 24 1.77 24h20.46C23.21 24 24 23.23 24 22.27V1.73C24 .77 23.21 0 22.23 0z"/>
-      </svg>
-    </a>
-  </div>
 
   <main>
     <section class="page-hero glass-card">
@@ -67,29 +55,6 @@
           <p class="module-grade-name">Distributed Database Engineering</p>
         </div>
         <p class="module-grade-mark">High 2:1</p>
-      </div>
-    </section>
-
-    <section class="section">
-      <div class="section-head">
-        <p class="eyebrow">Skills</p>
-        <h2>Data stack</h2>
-      </div>
-      <div class="interest-tags glass-card">
-        <span>Hadoop 3.3.6</span>
-        <span>HDFS</span>
-        <span>YARN</span>
-        <span>Apache Spark 3.5.4</span>
-        <span>Java MapReduce</span>
-        <span>Apache Cassandra</span>
-        <span>MongoDB</span>
-        <span>HBase</span>
-        <span>MySQL</span>
-        <span>CAP Theorem</span>
-        <span>SQL</span>
-        <span>Linux</span>
-        <span>Firebase</span>
-        <span>Real-time Sync</span>
       </div>
     </section>
 
@@ -132,9 +97,6 @@
                 <span>Slight (severity 3)</span>
               </div>
             </div>
-            <ul class="tech-list">
-              <li>Hadoop</li><li>HDFS</li><li>YARN</li><li>MapReduce</li><li>Apache Spark</li><li>Java</li><li>Linux</li><li>SSH</li>
-            </ul>
             <div class="card-links">
               <a class="btn btn-primary" href="Yousaf-Rakhshan-Hadoop-Cluster-Report.pdf" download="Yousaf-Rakhshan-Hadoop-Cluster-Report.pdf">Download lab report (PDF)</a>
             </div>
@@ -156,9 +118,6 @@
               <li><strong>Scenario A — global messaging (billions of JSON messages/day):</strong> Chose <strong>Apache Cassandra</strong>. Need is AP (availability + partition tolerance) with eventual consistency. Cassandra is masterless, uses LSM trees for O(1) append-only writes (~850,000+ writes/sec vs ~12,300 on MySQL in my comparison), hinted handoff, and tunable consistency (<code>CL=ONE</code>). Future work I noted: Time Window Compaction (TWCS) for chat logs and token-aware drivers for cross-datacentre latency.</li>
               <li><strong>Scenario C — medical imaging &amp; IoMT feeds:</strong> Chose <strong>MongoDB</strong>. Need is CP (strong consistency) for patient safety, GDPR Article 17, and NHS DSPT. Document model + dynamic schema handles JSON wearables, clinician notes, and new device fields without downtime; GridFS stores DICOM MRI/CT files with metadata in one queryable store. Lab evidence: joining nested JSON in MapReduce took 8+ minutes on 10GB — too slow for a clinical record.</li>
               <li><strong>Rejected options:</strong> MySQL (vertical scale, ACID lock contention); HBase (HMaster SPOF, weak nested-document queries); Cassandra for healthcare (stale telemetry is clinically unsafe); MongoDB for global chat (CP replica-set elections add 10–20s downtime).</li>
-            </ul>
-            <ul class="tech-list">
-              <li>CAP Theorem</li><li>Cassandra</li><li>MongoDB</li><li>HBase</li><li>MySQL</li><li>ACID / BASE</li><li>LSM Trees</li><li>GridFS</li><li>Hive</li>
             </ul>
             <div class="card-links">
               <a class="btn btn-primary" href="Yousaf-Rakhshan-Database-Architecture-Report.pdf" download="Yousaf-Rakhshan-Database-Architecture-Report.pdf">Download architecture report (PDF)</a>
