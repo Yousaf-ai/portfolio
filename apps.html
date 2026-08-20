@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="Yousaf Rakhshan — two native iOS apps from final year, Detect AI, Folio stock education, Shopwell shopping assistant, and pyala.co.uk." />
-  <title>Apps &amp; Websites — Yousaf Rakhshan</title>
+  <meta name="description" content="Yousaf Rakhshan. Two native iOS apps from final year, Detect AI, Folio stock education, Shopwell shopping assistant, and pyala.co.uk." />
+  <title>Apps &amp; Websites · Yousaf Rakhshan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -43,7 +43,7 @@
       <p class="eyebrow">Build focus</p>
       <h1>Apps, Websites &amp; <span class="gradient-text">Product Design</span></h1>
       <p class="page-lead">
-        Two separate native iOS apps from final year — a skin disease and fitness assistant for my Final Year Project, and a birthday social app for Mobile Platform Applications. Both were built in Swift with Firebase, API keys, and Cursor. Email, Google, and Apple sign-in, plus a real database. No payment integration on either app. Live web work includes Detect AI, an on-device image and video authenticity check; Folio, a stock-education site that teaches without recommending tickers; Shopwell, a UK shopping assistant; and a plain café website for Pyala at pyala.co.uk. The visual discovery app and wedding platform are still on the <a href="upcoming.html#upcoming">Upcoming</a> page — both native Swift in Xcode, with a complete backend and frontend and 2026 iOS UI.
+        Two separate native iOS apps from final year: a skin disease and fitness assistant for my Final Year Project, and a birthday social app for Mobile Platform Applications. Both were built in Swift with Firebase, API keys, and Cursor. Email, Google, and Apple sign-in, plus a real database. No payment integration on either app. Live web work includes Detect AI, an on-device image and video authenticity check; Folio, a stock-education site that teaches without recommending tickers; Shopwell, a UK shopping assistant; and a plain café website for Pyala at pyala.co.uk. The visual discovery app and wedding platform are still on the <a href="upcoming.html#upcoming">Upcoming</a> page, both native Swift in Xcode, with a complete backend and frontend and 2026 iOS UI.
       </p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="Yousaf-Rakhshan-Final-Year-Project-Report.pdf" download="Yousaf-Rakhshan-Final-Year-Project-Report.pdf">Download FYP report (PDF)</a>
@@ -120,19 +120,19 @@
           <div class="project-body">
             <div class="project-meta">
               <span class="tag">Final Year Project · 40 credits</span>
-              <span class="year">2025 — 2026 · High 2:1</span>
+              <span class="year">2025–2026 · High 2:1</span>
             </div>
             <h3>Skin Disease &amp; Fitness Assistant</h3>
-            <p class="project-problem">My individual Final Year Project: a native iOS app that lets someone photograph a skin concern and get structured AI feedback, then keep talking to the assistant by text or voice. Built in Swift / SwiftUI with Xcode and Cursor. Images and chat history are not stored on a remote product database — analysis history stays on the device.</p>
+            <p class="project-problem">My individual Final Year Project: a native iOS app that lets someone photograph a skin concern and get structured AI feedback, then keep talking to the assistant by text or voice. Built in Swift / SwiftUI with Xcode and Cursor. Images and chat history are not stored on a remote product database; analysis history stays on the device.</p>
             <ul class="contribution-list">
-              <li><strong>Image analysis:</strong> Camera or library photo goes to NVIDIA’s Qwen 3.5 multimodal API (API key). The app parses a JSON result — condition, confidence 0–100, description, treatment, warning, and NHS links.</li>
+              <li><strong>Image analysis:</strong> Camera or library photo goes to NVIDIA’s Qwen 3.5 multimodal API (API key). The app parses a JSON result: condition, confidence 0–100, description, treatment, warning, and NHS links.</li>
               <li><strong>Chat and voice:</strong> Nemotron 3 Super streams text replies through the same NVIDIA Integrate endpoint. Voice uses Apple’s Speech framework (en-GB); only the transcript is sent to the model.</li>
-              <li><strong>Accounts and data:</strong> Firebase Authentication — email, Google, and Sign in with Apple. Firebase for the user database. On-device history via FileManager and Codable (<code>analysis_history.json</code>). No payments.</li>
+              <li><strong>Accounts and data:</strong> Firebase Authentication: email, Google, and Sign in with Apple. Firebase for the user database. On-device history via FileManager and Codable (<code>analysis_history.json</code>). No payments.</li>
               <li><strong>How I built it:</strong> Layered SwiftUI (Models / Views / Services), prompt engineering, and JSON repair when the model wrapped answers in prose. Cursor for implementation speed; Xcode for builds and the iPhone 14 device tests.</li>
-              <li><strong>Evaluation:</strong> Three testers on an iPhone 14 (iOS 26.3). 96% JSON parse success after <code>extractJSON</code> heuristics; typical analysis 6–9 seconds on 4G. NHS disclaimers stay on screen — the app is informational, not a diagnosis.</li>
+              <li><strong>Evaluation:</strong> Three testers on an iPhone 14 (iOS 26.3). 96% JSON parse success after <code>extractJSON</code> heuristics; typical analysis 6–9 seconds on 4G. NHS disclaimers stay on screen; the app is informational, not a diagnosis.</li>
             </ul>
-            <p><strong>Role:</strong> Sole author — architecture, SwiftUI, API keys, Firebase, Cursor, testing, and the report.</p>
-            <p>Full dissertation (original file <code>N1230793_report.pdf</code>) — problem, architecture, Swift / Firebase, NVIDIA image and chat pipeline, iPhone 14 evaluation, and future work.</p>
+            <p><strong>Role:</strong> Sole author: architecture, SwiftUI, API keys, Firebase, Cursor, testing, and the report.</p>
+            <p>Full dissertation (original file <code>N1230793_report.pdf</code>): problem, architecture, Swift / Firebase, NVIDIA image and chat pipeline, iPhone 14 evaluation, and future work.</p>
             <div class="card-links">
               <a class="btn btn-primary" href="Yousaf-Rakhshan-Final-Year-Project-Report.pdf" download="Yousaf-Rakhshan-Final-Year-Project-Report.pdf">Download FYP report (PDF)</a>
             </div>
@@ -146,18 +146,18 @@
           <div class="project-body">
             <div class="project-meta">
               <span class="tag">Mobile Platform Applications · 20 credits</span>
-              <span class="year">2025 — 2026 · High 2:2</span>
+              <span class="year">2025–2026 · High 2:2</span>
             </div>
             <h3>Birthday Social Media</h3>
-            <p class="project-problem">My optional final-year mobile module — a different app from the FYP. A birthday-focused social network in Swift / SwiftUI: accounts, a year calendar, follows, search, activity, messaging, location on the profile, and account deletion. An API key generates posts for users. Built with Cursor and Xcode. Firebase is the backend. No payments.</p>
+            <p class="project-problem">My optional final-year mobile module, a different app from the FYP. A birthday-focused social network in Swift / SwiftUI: accounts, a year calendar, follows, search, activity, messaging, location on the profile, and account deletion. An API key generates posts for users. Built with Cursor and Xcode. Firebase is the backend. No payments.</p>
             <ul class="contribution-list">
               <li><strong>Auth and database:</strong> Firebase with <code>GoogleService-Info.plist</code>. Sign in with email, Google, and Apple. User profiles, follows, activity, and chat persist in the Firebase database so accounts survive a relaunch.</li>
-              <li><strong>Generated posts:</strong> An API key is used to generate posts for users — copy they can use on their birthday feed instead of starting from a blank box.</li>
+              <li><strong>Generated posts:</strong> An API key is used to generate posts for users, copy they can use on their birthday feed instead of starting from a blank box.</li>
               <li><strong>Product rules:</strong> Posting unlocks on the user’s birthday, and the account must be at least five days old. Followers’ birthdays show on the calendar. A live countdown sits on the profile. GDPR-style account deletion was implemented and tested.</li>
               <li><strong>Stage 1 testing:</strong> Testers flagged harsh colours, a missing forgot-password link, duplicate back arrows, a month-only calendar, broken Google sign-in, and no database. I rebuilt <code>AppTheme.swift</code>, wired Firebase, and fixed auth and navigation.</li>
               <li><strong>Stage 2 testing:</strong> Users liked the blue/white UI, haptics, year calendar, Google sign-in, search, messaging, and deletion. I kept iterating in Cursor on the remaining UX gaps (location toggle, follower lists, posting copy).</li>
             </ul>
-            <p><strong>Role:</strong> Sole iOS developer — SwiftUI, Firebase, API keys for generated posts, Cursor, and two rounds of user testing.</p>
+            <p><strong>Role:</strong> Sole iOS developer: SwiftUI, Firebase, API keys for generated posts, Cursor, and two rounds of user testing.</p>
             <p>Coursework 2 PDF has Stage 1 and Stage 2 tester feedback, screenshots, and a walkthrough. In the OneDrive folder, play <strong>Mobile Platform Application</strong>.</p>
             <div class="card-links">
               <a class="btn btn-primary" href="Yousaf-Rakhshan-Mobile-Application-Coursework.pdf" download="Yousaf-Rakhshan-Mobile-Application-Coursework.pdf">Download Coursework 2 (PDF)</a>
@@ -184,15 +184,15 @@
               <span class="tag">Independent · Live</span>
               <span class="year">2026</span>
             </div>
-            <h3><a href="https://detect-ai-six.vercel.app" target="_blank" rel="noopener">Detect AI — on-device authenticity check</a></h3>
+            <h3><a href="https://detect-ai-six.vercel.app" target="_blank" rel="noopener">Detect AI: on-device authenticity check</a></h3>
             <p class="project-problem">An on-device forensics tool, not an upload API and not legal proof. Drop an image or a video up to one minute; classifiers, frequency analysis, and provenance checks run in the browser. Nothing is uploaded, and there is no account.</p>
             <ul class="contribution-list">
               <li><strong>Drop media:</strong> JPG, PNG, WebP, GIF, MP4, MOV, WebM. Decode, EXIF, C2PA markers, FFT, and ONNX classifiers stay in the tab. First visit may download quantized models from Hugging Face into the browser cache.</li>
-              <li><strong>Ensemble:</strong> Three classifiers — a distilled AI-vs-real ViT, an SDXL-oriented detector, and a face-swap deepfake ViT — plus generator-agnostic forensics. Votes map to Authentic, Likely AI, AI-generated, or Undetermined. Disagreement is shown, not hidden.</li>
-              <li><strong>Coverage:</strong> Built for families of generators, not a logo list — Flux, Midjourney, Firefly, DALL·E, and SDXL-class stills; face swaps; Sora-class clips sampled to about twelve keyframes with a 60-second cap.</li>
+              <li><strong>Ensemble:</strong> Three classifiers (a distilled AI-vs-real ViT, an SDXL-oriented detector, and a face-swap deepfake ViT) plus generator-agnostic forensics. Votes map to Authentic, Likely AI, AI-generated, or Undetermined. Disagreement is shown, not hidden.</li>
+              <li><strong>Coverage:</strong> Built for families of generators, not a logo list: Flux, Midjourney, Firefly, DALL·E, and SDXL-class stills; face swaps; Sora-class clips sampled to about twelve keyframes with a 60-second cap.</li>
               <li><strong>Limits:</strong> New models, heavy social compression, and stripped metadata can produce false confidence. Missing EXIF never proves authenticity. The site states this is a forensic estimate for a portfolio tool, not a courtroom pack.</li>
             </ul>
-            <p><strong>Role:</strong> Sole developer — product, on-device pipeline, ensemble rules, and deploy.</p>
+            <p><strong>Role:</strong> Sole developer: product, on-device pipeline, ensemble rules, and deploy.</p>
             <div class="card-links">
               <a class="btn btn-primary" href="https://detect-ai-six.vercel.app" target="_blank" rel="noopener">Open Detect AI ↗</a>
             </div>
@@ -208,15 +208,15 @@
               <span class="tag">Independent · Live</span>
               <span class="year">2026</span>
             </div>
-            <h3><a href="https://folio-sable-pi.vercel.app" target="_blank" rel="noopener">Folio — Learn stocks clearly</a></h3>
-            <p class="project-problem">A stock-education site, not a broker and not a sales pitch. Folio teaches from the first share to evidence — curriculum, delayed public quotes, investor profiles, tools, a glossary, and a chat mentor that will not pick a ticker or invent a price.</p>
+            <h3><a href="https://folio-sable-pi.vercel.app" target="_blank" rel="noopener">Folio: Learn stocks clearly</a></h3>
+            <p class="project-problem">A stock-education site, not a broker and not a sales pitch. Folio teaches from the first share to evidence: curriculum, delayed public quotes, investor profiles, tools, a glossary, and a chat mentor that will not pick a ticker or invent a price.</p>
             <ul class="contribution-list">
               <li><strong>Curriculum:</strong> 20 lessons across beginner, intermediate, and expert. New readers start at how stocks work, how to buy in the UK (including ISAs), returns, risk, index funds vs picking stocks, inflation, and behaviour. Experienced readers skip to filings, factors, and the investors desk.</li>
-              <li><strong>Research desks:</strong> 77 investor profiles with survivorship bias called out on the page. Markets show delayed public quotes and a watchlist stored on this device — missing prints stay missing.</li>
-              <li><strong>Chat and glossary:</strong> Short definitions, plus a constrained mentor. It still will not invent a number or recommend a stock. Educational content only — not personalised advice, and not an offer to buy or sell.</li>
+              <li><strong>Research desks:</strong> 77 investor profiles with survivorship bias called out on the page. Markets show delayed public quotes and a watchlist stored on this device; missing prints stay missing.</li>
+              <li><strong>Chat and glossary:</strong> Short definitions, plus a constrained mentor. It still will not invent a number or recommend a stock. Educational content only; not personalised advice, and not an offer to buy or sell.</li>
               <li><strong>Built to teach, not to trade:</strong> Zero recommendations. Quotes, when they appear, are delayed public data with a source and a time. Prefer a broker when you actually need a live price.</li>
             </ul>
-            <p><strong>Role:</strong> Sole developer — curriculum, product, delayed market desk, constrained chat, and deploy.</p>
+            <p><strong>Role:</strong> Sole developer: curriculum, product, delayed market desk, constrained chat, and deploy.</p>
             <div class="card-links">
               <a class="btn btn-primary" href="https://folio-sable-pi.vercel.app" target="_blank" rel="noopener">Open Folio ↗</a>
             </div>
@@ -232,15 +232,15 @@
               <span class="tag">Independent · Live</span>
               <span class="year">2026</span>
             </div>
-            <h3><a href="https://shopping-assistant-omega.vercel.app" target="_blank" rel="noopener">Shopwell — Shopping Assistant</a></h3>
-            <p class="project-problem">A shopping thread, not a store. Shopwell searches Google Shopping in the UK, shows listings as photo-and-price cards, and writes a short comparison. You buy on the merchant site — checkout, delivery, and returns never happen here.</p>
+            <h3><a href="https://shopping-assistant-omega.vercel.app" target="_blank" rel="noopener">Shopwell: Shopping Assistant</a></h3>
+            <p class="project-problem">A shopping thread, not a store. Shopwell searches Google Shopping in the UK, shows listings as photo-and-price cards, and writes a short comparison. You buy on the merchant site; checkout, delivery, and returns never happen here.</p>
             <ul class="contribution-list">
               <li><strong>Ask:</strong> Type a product in plain language, or just talk. Chat stays a conversation; a shopping request runs a search.</li>
-              <li><strong>Compare:</strong> Each hit is a card with photo, price, shop, and a link. A note underneath compares that set — from an AI model, or a local brief if the model fails. Chips re-search cheaper, higher rated, more, or other brands.</li>
+              <li><strong>Compare:</strong> Each hit is a card with photo, price, shop, and a link. A note underneath compares that set, from an AI model, or a local brief if the model fails. Chips re-search cheaper, higher rated, more, or other brands.</li>
               <li><strong>Buy on the shop:</strong> Open a card to leave Shopwell. It does not take payment or hold a basket, and it does not invent products if Google Shopping has no hit.</li>
               <li><strong>Threads:</strong> The sidebar keeps the conversation so you can reopen the same cards later.</li>
             </ul>
-            <p><strong>Role:</strong> Sole developer — product, chat UX, Google Shopping search, comparison notes, and deploy.</p>
+            <p><strong>Role:</strong> Sole developer: product, chat UX, Google Shopping search, comparison notes, and deploy.</p>
             <div class="card-links">
               <a class="btn btn-primary" href="https://shopping-assistant-omega.vercel.app" target="_blank" rel="noopener">Open Shopwell ↗</a>
             </div>
@@ -254,9 +254,9 @@
           <div class="project-body">
             <div class="project-meta">
               <span class="tag">Commercial · Live</span>
-              <span class="year">2025 — Present</span>
+              <span class="year">2025–Present</span>
             </div>
-            <h3><a href="https://www.pyala.co.uk" target="_blank" rel="noopener">Pyala — Café website</a></h3>
+            <h3><a href="https://www.pyala.co.uk" target="_blank" rel="noopener">Pyala: Café website</a></h3>
             <p class="project-problem">A plain website for Pyala Chai &amp; Paratha, a family-run café in Nottingham. It represents the shop: the story, menu, hours, address, and catering. There is no online ordering, payments, inventory, or till on the site.</p>
             <p><strong>Role:</strong> Built the shop site so people can find the café and see what it serves.</p>
             <div class="card-links">
@@ -269,7 +269,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> Yousaf Rakhshan · BSc (Hons) CS — AI (2:1)</p>
+    <p>© <span id="year"></span> Yousaf Rakhshan · BSc (Hons) CS, AI (2:1)</p>
   </footer>
 
   <button class="back-to-top" type="button" aria-label="Back to top">

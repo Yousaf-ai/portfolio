@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="Yousaf Rakhshan — Hadoop cluster, MapReduce, Spark, Cassandra, MongoDB, and distributed database engineering coursework." />
-  <title>Data Engineering — Yousaf Rakhshan</title>
+  <meta name="description" content="Yousaf Rakhshan. Hadoop cluster, MapReduce, Spark, Cassandra, MongoDB, and distributed database engineering coursework." />
+  <title>Data Engineering · Yousaf Rakhshan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
@@ -43,7 +43,7 @@
       <p class="eyebrow">Data focus</p>
       <h1>Data Engineering &amp; <span class="gradient-text">Analytics</span></h1>
       <p class="page-lead">
-        Distributed database engineering from COMP30261 — a five-node Hadoop cluster, Java MapReduce on 160k road-safety records, and architecture recommendations across Cassandra, MongoDB, HBase, and MySQL using the CAP theorem.
+        Distributed database engineering from COMP30261: a five-node Hadoop cluster, Java MapReduce on 160k road-safety records, and architecture recommendations across Cassandra, MongoDB, HBase, and MySQL using the CAP theorem.
       </p>
       <div class="hero-actions">
         <a class="btn btn-primary" href="Yousaf-Rakhshan-Hadoop-Cluster-Report.pdf" download="Yousaf-Rakhshan-Hadoop-Cluster-Report.pdf">Download Coursework 1 (PDF)</a>
@@ -75,13 +75,13 @@
               <span class="year">2025</span>
             </div>
             <h3>Five-Node Hadoop Cluster &amp; MapReduce Pipeline</h3>
-            <p class="project-problem">Designed, installed, and operated a multi-node Hadoop cluster to process the 2018 UK Road Safety dataset — 160,597 casualty records — using a custom Java MapReduce job. Traditional single-node RDBMS hits memory and I/O limits at this scale; the cluster used HDFS block replication, YARN resource management, and Spark alongside MapReduce.</p>
+            <p class="project-problem">Designed, installed, and operated a multi-node Hadoop cluster to process the 2018 UK Road Safety dataset (160,597 casualty records) using a custom Java MapReduce job. Traditional single-node RDBMS hits memory and I/O limits at this scale; the cluster used HDFS block replication, YARN resource management, and Spark alongside MapReduce.</p>
             <p><strong>What I built:</strong> Master node <code>machine01</code> ran NameNode and ResourceManager; workers <code>machine02</code>–<code>machine05</code> ran DataNodes and NodeManagers. Passwordless SSH, static IPs, and Hadoop XML config (<code>core-site.xml</code>, <code>hdfs-site.xml</code>, <code>yarn-site.xml</code>, <code>mapred-site.xml</code>) were cloned and tuned across the cluster, then validated with <code>jps</code>, HDFS CLI, and the NameNode / ResourceManager web UIs.</p>
             <ul class="contribution-list">
               <li><strong>Stack:</strong> OpenJDK 8, Hadoop 3.3.6, Apache Spark 3.5.4 (standalone), Linux VMs, replication factor 3.</li>
-              <li><strong>Job:</strong> <code>RoadSafetyMapper</code> / <code>RoadSafetyReducer</code> / <code>RoadSafetyDriver</code> packaged as <code>CasualtyCount.jar</code> — parsed CSV severity (column 8) and aggregated fatal / serious / slight counts.</li>
+              <li><strong>Job:</strong> <code>RoadSafetyMapper</code> / <code>RoadSafetyReducer</code> / <code>RoadSafetyDriver</code> packaged as <code>CasualtyCount.jar</code>, parsed CSV severity (column 8) and aggregated fatal / serious / slight counts.</li>
               <li><strong>Runtime:</strong> ~45 seconds with four map tasks and one reducer; YARN allocated 2GB per NodeManager and 1.5GB per mapper/reducer.</li>
-              <li><strong>Critique:</strong> The ~52MB file fitted a single 128MB HDFS block, so true data-locality parallelism was limited — I documented that Spark in-memory processing and larger multi-block datasets would show stronger scale-out.</li>
+              <li><strong>Critique:</strong> The ~52MB file fitted a single 128MB HDFS block, so true data-locality parallelism was limited; I documented that Spark in-memory processing and larger multi-block datasets would show stronger scale-out.</li>
             </ul>
             <div class="stat-row">
               <div class="stat-pill">
@@ -112,11 +112,11 @@
               <span class="tag">COMP30261 · Coursework 2</span>
               <span class="year">2026</span>
             </div>
-            <h3>Distributed Database Architecture — CAP Trade-offs</h3>
+            <h3>Distributed Database Architecture: CAP Trade-offs</h3>
             <p class="project-problem">Technical report comparing MySQL, MongoDB, Apache Cassandra, and HBase for two production scenarios. Recommendations were grounded in my Hadoop lab: NameNode heartbeats every 2 seconds showed why master-coordinated systems create a single point of failure, and Hive/MapReduce schema locks showed why rigid “schema-on-write” fails for evolving document data.</p>
             <ul class="contribution-list">
-              <li><strong>Scenario A — global messaging (billions of JSON messages/day):</strong> Chose <strong>Apache Cassandra</strong>. Need is AP (availability + partition tolerance) with eventual consistency. Cassandra is masterless, uses LSM trees for O(1) append-only writes (~850,000+ writes/sec vs ~12,300 on MySQL in my comparison), hinted handoff, and tunable consistency (<code>CL=ONE</code>). Future work I noted: Time Window Compaction (TWCS) for chat logs and token-aware drivers for cross-datacentre latency.</li>
-              <li><strong>Scenario C — medical imaging &amp; IoMT feeds:</strong> Chose <strong>MongoDB</strong>. Need is CP (strong consistency) for patient safety, GDPR Article 17, and NHS DSPT. Document model + dynamic schema handles JSON wearables, clinician notes, and new device fields without downtime; GridFS stores DICOM MRI/CT files with metadata in one queryable store. Lab evidence: joining nested JSON in MapReduce took 8+ minutes on 10GB — too slow for a clinical record.</li>
+              <li><strong>Scenario A, global messaging (billions of JSON messages/day):</strong> Chose <strong>Apache Cassandra</strong>. Need is AP (availability + partition tolerance) with eventual consistency. Cassandra is masterless, uses LSM trees for O(1) append-only writes (~850,000+ writes/sec vs ~12,300 on MySQL in my comparison), hinted handoff, and tunable consistency (<code>CL=ONE</code>). Future work I noted: Time Window Compaction (TWCS) for chat logs and token-aware drivers for cross-datacentre latency.</li>
+              <li><strong>Scenario C, medical imaging &amp; IoMT feeds:</strong> Chose <strong>MongoDB</strong>. Need is CP (strong consistency) for patient safety, GDPR Article 17, and NHS DSPT. Document model + dynamic schema handles JSON wearables, clinician notes, and new device fields without downtime; GridFS stores DICOM MRI/CT files with metadata in one queryable store. Lab evidence: joining nested JSON in MapReduce took 8+ minutes on 10GB, too slow for a clinical record.</li>
               <li><strong>Rejected options:</strong> MySQL (vertical scale, ACID lock contention); HBase (HMaster SPOF, weak nested-document queries); Cassandra for healthcare (stale telemetry is clinically unsafe); MongoDB for global chat (CP replica-set elections add 10–20s downtime).</li>
             </ul>
             <div class="card-links">
@@ -131,7 +131,7 @@
       <div class="section-head">
         <p class="eyebrow">Reports</p>
         <h2>Download the PDFs</h2>
-        <p class="section-desc">Full COMP30261 submissions — lab implementation and architecture analysis.</p>
+        <p class="section-desc">Full COMP30261 submissions: lab implementation and architecture analysis.</p>
       </div>
       <div class="download-grid">
         <article class="download-card glass-card">
@@ -143,7 +143,7 @@
         <article class="download-card glass-card">
           <p class="eyebrow">Coursework 2 · 40%</p>
           <h3>Technical report</h3>
-          <p>Scenarios A &amp; C — CAP-based comparison of MySQL, MongoDB, Cassandra, and HBase, with Cassandra and MongoDB as the selected systems.</p>
+          <p>Scenarios A &amp; C: CAP-based comparison of MySQL, MongoDB, Cassandra, and HBase, with Cassandra and MongoDB as the selected systems.</p>
           <a class="btn btn-primary" href="Yousaf-Rakhshan-Database-Architecture-Report.pdf" download="Yousaf-Rakhshan-Database-Architecture-Report.pdf">Download PDF</a>
         </article>
       </div>
@@ -156,7 +156,7 @@
       </div>
       <div class="module-list glass-card">
         <ul>
-          <li>Distributed Database Engineering (COMP30261) — High 2:1</li>
+          <li>Distributed Database Engineering (COMP30261): High 2:1</li>
           <li>Big Data Programming</li>
           <li>Information &amp; Database Management</li>
           <li>Data Analytics Techniques</li>
@@ -167,7 +167,7 @@
   </main>
 
   <footer class="site-footer">
-    <p>© <span id="year"></span> Yousaf Rakhshan · BSc (Hons) CS — AI (2:1)</p>
+    <p>© <span id="year"></span> Yousaf Rakhshan · BSc (Hons) CS, AI (2:1)</p>
   </footer>
 
   <button class="back-to-top" type="button" aria-label="Back to top">
