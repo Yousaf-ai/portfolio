@@ -606,6 +606,10 @@ main {
   background: linear-gradient(145deg, #f4c2c2, #c9a227);
 }
 
+.visual-books {
+  background: linear-gradient(145deg, #8b6914, #5856d6);
+}
+
 .tag-soon {
   color: #9a6700;
   background: rgba(251, 188, 4, 0.2);

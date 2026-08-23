@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="Yousaf Rakhshan. Upcoming visual discovery app and wedding platform, plus active learning across AI agents, automation, gaming, marketing, data, and completed courses." />
+  <meta name="description" content="Yousaf Rakhshan. Upcoming Books iOS app, visual discovery app, and wedding platform, plus active learning across AI agents, automation, gaming, marketing, data, and completed courses." />
   <title>Upcoming · Yousaf Rakhshan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <link rel="stylesheet" href="styles.css?v=swift-xcode-upcoming-2026" />
+  <link rel="stylesheet" href="styles.css?v=books-upcoming-2026" />
 </head>
 <body>
   <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
@@ -43,10 +43,11 @@
       <p class="eyebrow">Next chapter</p>
       <h1>Upcoming work &amp; <span class="gradient-text">active learning</span></h1>
       <p class="page-lead">
-        I am interested in all of the areas below, and I am actively learning each of them. Artificial intelligence is the centre of gravity: agents, automation, and the models people actually want to use. Gaming, marketing, and data sit around that, not instead of it. A visual discovery app and a wedding platform are currently in design and development, both native Swift in Xcode, with a complete backend and frontend and UI built to 2026 iOS standards. Detect AI, Folio, and Shopwell are live on the <a href="apps.html#websites">Apps &amp; Web</a> page.
+        I am interested in all of the areas below, and I am actively learning each of them. Artificial intelligence is the centre of gravity: agents, automation, and the models people actually want to use. Gaming, marketing, and data sit around that, not instead of it. Books, a visual discovery app, and a wedding platform are currently in design and development, all native Swift in Xcode, with a complete backend and frontend and UI built to 2026 iOS standards. Detect AI, Folio, and Shopwell are live on the <a href="apps.html#websites">Apps &amp; Web</a> page.
       </p>
       <nav class="jump-nav" aria-label="On this page">
         <a href="#upcoming">Websites &amp; apps</a>
+        <a href="#books">Books</a>
         <a href="#wedding">Wedding platform</a>
         <a href="#agents">AI Agents</a>
         <a href="#automation">AI Automation</a>
@@ -61,7 +62,7 @@
       <div class="section-head">
         <p class="eyebrow">In development</p>
         <h2>Upcoming websites &amp; apps</h2>
-        <p class="section-desc">Both upcoming apps will be native Swift in Xcode: a complete backend and frontend, not a prototype shell, with security treated as part of the product and UI built to 2026 iOS standards. Detect AI is live on <a href="apps.html#detect-ai">Apps &amp; Web</a>.</p>
+        <p class="section-desc">All upcoming apps will be native Swift in Xcode: a complete backend and frontend, not a prototype shell, with security treated as part of the product and UI built to 2026 iOS standards. Detect AI is live on <a href="apps.html#detect-ai">Apps &amp; Web</a>.</p>
       </div>
 
       <div class="featured-projects">
@@ -82,6 +83,28 @@
               <li><strong>How I will build it:</strong> Native Swift / SwiftUI in Xcode, a full iOS app, not a web wrap. Complete frontend and backend so boards, accounts, and uploads are not sitting behind an open client. Auth, security rules, and no API keys in the binary, so one jailbroken phone cannot read everyone else’s pins. UI aimed at 2026 iOS: Liquid Glass, Dynamic Type, Dark Mode, and SF Symbols, tested on device the same way I shipped the FYP on iPhone 14 / iOS 26.</li>
             </ul>
             <p><strong>Status:</strong> Research and early product design. Prototype and live URL to follow.</p>
+          </div>
+        </article>
+
+        <article id="books" class="project-feature glass-card">
+          <div class="project-visual visual-books" role="img" aria-label="Books iOS app">
+            <span class="visual-label">Coming soon · App</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="tag tag-soon">Upcoming</span>
+              <span class="year">In design &amp; development</span>
+            </div>
+            <h3>Books</h3>
+            <p class="project-problem">A private AI library for books you own — ingest, ask, and listen. Books is an iOS app that turns a personal library into something you can search, talk to, and listen to.</p>
+            <ul class="contribution-list">
+              <li><strong>Ingest:</strong> Import a PDF, Word file, or a public-domain link (Gutenberg, Standard Ebooks, Internet Archive). The backend extracts text, checks that it is actually a book, splits chapters, and builds embeddings.</li>
+              <li><strong>Ask:</strong> Get a summary and outline, then chapter-grounded chat powered by NVIDIA NIM and retrieval — answers stay tied to what you imported, not generic model guesses.</li>
+              <li><strong>Listen:</strong> Read-aloud via ElevenLabs or on-device speech, so a book in your library becomes something you can hear as well as query.</li>
+              <li><strong>Stack:</strong> SwiftUI on the client; Supabase for auth, storage, Postgres, and Edge Functions. API keys and embedding jobs stay server-side, not in the app binary.</li>
+              <li><strong>Skills:</strong> SwiftUI, Swift concurrency, Supabase (Auth, Storage, Edge Functions), RAG, embeddings, NVIDIA NIM, ElevenLabs TTS.</li>
+            </ul>
+            <p><strong>Status:</strong> Design and development. Prototype and live URL to follow.</p>
           </div>
         </article>
 
