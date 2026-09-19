@@ -610,6 +610,10 @@ main {
   background: linear-gradient(145deg, #8b6914, #5856d6);
 }
 
+.visual-flowmore {
+  background: linear-gradient(145deg, #3d8b7a, #1a4d44);
+}
+
 .tag-soon {
   color: #9a6700;
   background: rgba(251, 188, 4, 0.2);
