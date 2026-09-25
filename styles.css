@@ -614,6 +614,10 @@ main {
   background: linear-gradient(145deg, #3d8b7a, #1a4d44);
 }
 
+.visual-uptodate {
+  background: linear-gradient(145deg, #3a3a3c, #1d1d1f);
+}
+
 .tag-soon {
   color: #9a6700;
   background: rgba(251, 188, 4, 0.2);
