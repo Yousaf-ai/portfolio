@@ -3,13 +3,13 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
-  <meta name="description" content="Yousaf Rakhshan. Upcoming Books iOS app, visual discovery app, and wedding platform, plus active learning across AI agents, automation, gaming, marketing, data, and completed courses." />
+  <meta name="description" content="Yousaf Rakhshan. Upcoming Books, eview, wedding planner, and NSI iOS apps, plus active learning across AI agents, automation, gaming, marketing, data, and completed courses." />
   <title>Upcoming · Yousaf Rakhshan</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <link rel="stylesheet" href="styles.css?v=books-upcoming-2026" />
+  <link rel="stylesheet" href="styles.css?v=stack-2026" />
 </head>
 <body>
   <div class="scroll-progress" role="progressbar" aria-label="Page scroll progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
@@ -43,12 +43,14 @@
       <p class="eyebrow">Next chapter</p>
       <h1>Upcoming work &amp; <span class="gradient-text">active learning</span></h1>
       <p class="page-lead">
-        I am interested in all of the areas below, and I am actively learning each of them. Artificial intelligence is the centre of gravity: agents, automation, and the models people actually want to use. Gaming, marketing, and data sit around that, not instead of it. Books, a visual discovery app, and a wedding platform are currently in design and development, all native Swift in Xcode, with a complete backend and frontend and UI built to 2026 iOS standards. Up to Date, flowmore, Detect AI, Folio, and Shopwell are live on the <a href="apps.html#websites">Apps &amp; Web</a> page.
+        I am interested in all of the areas below, and I am actively learning each of them. Artificial intelligence is the centre of gravity: agents, automation, and the models people actually want to use. Gaming, marketing, and data sit around that, not instead of it. Books, eview, a wedding planner, and NSI are currently in design and development, native Swift in Xcode. None of them are on the App Store. Up to Date, flowmore, Detect AI, Folio, Shopwell, and Ads Platform are live on the <a href="apps.html#websites">Apps &amp; Web</a> page.
       </p>
       <nav class="jump-nav" aria-label="On this page">
         <a href="#upcoming">Websites &amp; apps</a>
+        <a href="#upcoming-app">eview</a>
         <a href="#books">Books</a>
-        <a href="#wedding">Wedding platform</a>
+        <a href="#wedding">Wedding</a>
+        <a href="#nsi">NSI</a>
         <a href="#agents">AI Agents</a>
         <a href="#automation">AI Automation</a>
         <a href="#gaming">Gaming</a>
@@ -62,27 +64,27 @@
       <div class="section-head">
         <p class="eyebrow">In development</p>
         <h2>Upcoming websites &amp; apps</h2>
-        <p class="section-desc">All upcoming apps will be native Swift in Xcode: a complete backend and frontend, not a prototype shell, with security treated as part of the product and UI built to 2026 iOS standards. Live sites including Up to Date are on <a href="apps.html#websites">Apps &amp; Web</a>.</p>
+        <p class="section-desc">Four native iOS apps in development, separate from the finished degree apps on <a href="apps.html">Apps &amp; Web</a>. Native Swift in Xcode. None of them are on the App Store. Live sites including Up to Date are on <a href="apps.html#websites">Apps &amp; Web</a>.</p>
       </div>
 
       <div class="featured-projects">
         <article id="upcoming-app" class="project-feature glass-card">
-          <div class="project-visual visual-pin" role="img" aria-label="Visual discovery app">
+          <div class="project-visual visual-pin" role="img" aria-label="eview visual discovery app">
             <span class="visual-label">Coming soon · App</span>
           </div>
           <div class="project-body">
             <div class="project-meta">
               <span class="tag tag-soon">Upcoming</span>
-              <span class="year">In research &amp; design</span>
+              <span class="year">In design &amp; development</span>
             </div>
-            <h3>Visual Discovery App</h3>
-            <p class="project-problem">A Pinterest-style app built from what people are actually saying about the current one: feeds flooded with low-quality AI-generated posts, ads crowding out real inspiration, and human-made photos, recipes, and art getting buried. I am researching those comments first, then designing a cleaner visual board product around them, not a clone with a new coat of paint.</p>
+            <h3>eview</h3>
+            <p class="project-problem">A visual-discovery app in the Pinterest shape: discover, search, add a pin, boards, and profile, aimed at human-made images rather than generated posts. Built from what people are actually saying about the current one: feeds flooded with low-quality AI-generated posts, ads crowding out real inspiration, and human-made photos, recipes, and art getting buried.</p>
             <ul class="contribution-list">
               <li><strong>What users keep repeating:</strong> r/Pinterest, WIRED, CNN, and 404 Media all point to the same problems: “AI slop” in search and home feeds, affiliate spam after you tap a pin, and ads that can make up a large share of what you see. Pinterest’s own Gen AI labels and “see fewer” tools still miss a lot of synthetic posts, and they often do not apply to ads.</li>
               <li><strong>Product rules I am designing against that:</strong> Human-made images first. AI content labelled in the feed, not only after a tap, or kept off the default board entirely. Far fewer ads, and no bait pins that open an ad-stuffed blog. Search that returns real photos, recipes, and art instead of generated lookalikes.</li>
-              <li><strong>How I will build it:</strong> Native Swift / SwiftUI in Xcode, a full iOS app, not a web wrap. Complete frontend and backend so boards, accounts, and uploads are not sitting behind an open client. Auth, security rules, and no API keys in the binary, so one jailbroken phone cannot read everyone else’s pins. UI aimed at 2026 iOS: Liquid Glass, Dynamic Type, Dark Mode, and SF Symbols, tested on device the same way I shipped the FYP on iPhone 14 / iOS 26.</li>
+              <li><strong>Stack:</strong> Native Swift / SwiftUI in Xcode. The current build uses SwiftData and CloudKit, with accounts, shopping, idea pins, and privacy screens. An earlier build used Supabase.</li>
             </ul>
-            <p><strong>Status:</strong> Research and early product design. Prototype and live URL to follow.</p>
+            <p><strong>Status:</strong> Design and development. Not on the App Store.</p>
           </div>
         </article>
 
@@ -100,11 +102,10 @@
             <ul class="contribution-list">
               <li><strong>Ingest:</strong> Import a PDF, Word file, or a public-domain link (Gutenberg, Standard Ebooks, Internet Archive). The backend extracts text, checks that it is actually a book, splits chapters, and builds embeddings.</li>
               <li><strong>Ask:</strong> Get a summary and outline, then chapter-grounded chat powered by NVIDIA NIM and retrieval — answers stay tied to what you imported, not generic model guesses.</li>
-              <li><strong>Listen:</strong> Read-aloud via ElevenLabs or on-device speech, so a book in your library becomes something you can hear as well as query.</li>
-              <li><strong>Stack:</strong> SwiftUI on the client; Supabase for auth, storage, Postgres, and Edge Functions. API keys and embedding jobs stay server-side, not in the app binary.</li>
-              <li><strong>Skills:</strong> SwiftUI, Swift concurrency, Supabase (Auth, Storage, Edge Functions), RAG, embeddings, NVIDIA NIM, ElevenLabs TTS.</li>
+              <li><strong>Listen:</strong> Read-aloud via ElevenLabs, with Apple speech as the fallback, so a book in your library becomes something you can hear as well as query.</li>
+              <li><strong>Stack:</strong> SwiftUI on the client; Supabase for anonymous sign-in, storage, Postgres, and Edge Functions; NVIDIA NIM; ElevenLabs. API keys and embedding jobs stay server-side, not in the app binary.</li>
             </ul>
-            <p><strong>Status:</strong> Design and development. Prototype and live URL to follow.</p>
+            <p><strong>Status:</strong> Design and development. Not on the App Store.</p>
           </div>
         </article>
 
@@ -124,9 +125,30 @@
               <li><strong>AI invitations:</strong> Generate invitations in the app from names, date, venue, and style. Edit and send from the same place rather than exporting to a print or stationery site to start over.</li>
               <li><strong>Memory calendar:</strong> Pick any day, upload photos and videos, and keep that day’s memories on a shared calendar. Those uploads become a slideshow, engagement through the wedding and after, not only a dump of the big day.</li>
               <li><strong>What well-known wedding apps already do:</strong> Guest list and RSVPs, seating, budget, vendor shortlists, checklists and timelines, a wedding website, and a registry. Those stay in the product so couples are not stitching five apps together; the three above are what I am adding on top.</li>
-              <li><strong>How I will build it:</strong> Native Swift / SwiftUI in Xcode, with a complete frontend and backend; guest lists, RSVPs, photos, and chat are not a local demo. Auth, least-privilege storage, and security rules so couples’ memories and guest data are not readable from the client. No secrets in the app binary; API keys stay on the server. UI to 2026 iOS standards: Liquid Glass, large Dynamic Type, Dark Mode, and a calendar/slideshow that feels native, not a 2019 form stack. Same device-test habit as the birthday social app and FYP.</li>
+              <li><strong>On the phone:</strong> Home, plan, calendar, guests, and profile, plus mood boards, photos, weather, travel, the day itself, outfits, documents, favours, hotels, the wedding party, honeymoon, and vendors.</li>
+              <li><strong>Stack:</strong> SwiftUI and SwiftData. This build stores data on the device; it does not yet have a server backend.</li>
             </ul>
-            <p><strong>Status:</strong> Design and development. Prototype and live URL to follow.</p>
+            <p><strong>Status:</strong> Design and development. Not on the App Store.</p>
+          </div>
+        </article>
+
+        <article id="nsi" class="project-feature glass-card">
+          <div class="project-visual visual-nsi" role="img" aria-label="NSI practice tracker">
+            <span class="visual-label">Coming soon · App</span>
+          </div>
+          <div class="project-body">
+            <div class="project-meta">
+              <span class="tag tag-soon">Upcoming</span>
+              <span class="year">In design &amp; development</span>
+            </div>
+            <h3>NSI</h3>
+            <p class="project-problem">An on-device practice tracker, not a social app and not a cloud account. Two tabs: Track for short notes, Execute for practices that only go live when they have a reason.</p>
+            <ul class="contribution-list">
+              <li><strong>Track:</strong> A short note tagged see, hear, think, or do.</li>
+              <li><strong>Execute:</strong> A practice that only goes live when it has a reason, plus reps whose strength fades over 72 hours.</li>
+              <li><strong>Stack:</strong> SwiftUI and SwiftData only. No accounts, cloud, notifications, or voice in this version.</li>
+            </ul>
+            <p><strong>Status:</strong> Design and development. Not on the App Store.</p>
           </div>
         </article>
       </div>
